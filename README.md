@@ -13,10 +13,15 @@ A millimeterwave application based on onos
 
 
 # Installation 
-    git clone https://github.com/DINGDAMU/Millimeterwave_onos_app.git 
-    cd Millimeterwave_onos_app
+    git clone https://github.com/DINGDAMU/millimeterwave-onos-app.git
+    cd millimeterwave-onos-app/millimeterwavelink
     mvn clean install 
     onos-app localhost reinstall! target/*.oar
+    cd millimeterwave-onos-app/millimeterwaveport
+    mvn clean install 
+    onos-app localhost reinstall! target/*.oar
+
+    
  
 # Usage 
 ## This application can acquire the mininet's topology from different subsystems via northbound APIs, such as HostService, LinkService and DeviceService.  
