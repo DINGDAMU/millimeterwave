@@ -14,10 +14,12 @@ A millimeterwave application based on onos
 
 # Installation 
     git clone https://github.com/DINGDAMU/millimeterwave-onos-app.git
-    cd millimeterwave-onos-app/millimeterwavelink
+    cd Millimeterwave_onos_app
+    mvn clean install 
+    cd millimeterwavelink
     mvn clean install 
     onos-app localhost reinstall! target/*.oar
-    cd millimeterwave-onos-app/millimeterwaveport
+    cd ../millimeterwaveport
     mvn clean install 
     onos-app localhost reinstall! target/*.oar
 
