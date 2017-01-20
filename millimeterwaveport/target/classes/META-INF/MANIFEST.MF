@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1484919303944
+Build-Jdk: 1.8.0_51
+Built-By: dingdamu
+Bundle-Description: An ONOS application for annotations on millimeter_wa
+ ve on ports
+Bundle-ManifestVersion: 2
+Bundle-Name: millimeterwaveport
+Bundle-SymbolicName: org.onosproject.millimeterwave.port
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.onosproject.millimeterwaveport;uses:="org.onosprojec
+ t.core,org.onosproject.incubator.net.config.basics,org.onosproject.mast
+ ership,org.onosproject.net,org.onosproject.net.config,org.onosproject.n
+ et.device,org.onosproject.net.provider";version="1.0.0"
+Import-Package: com.fasterxml.jackson.databind;version="[2.7,3)",com.fas
+ terxml.jackson.databind.node;version="[2.7,3)",com.google.common.base;v
+ ersion="[19.0,20)",com.google.common.collect;version="[19.0,20)",org.on
+ lab.packet;version="[1.8,2)",org.onlab.util;version="[1.8,2)",org.onosp
+ roject.cluster;version="[1.8,2)",org.onosproject.core;version="[1.8,2)"
+ ,org.onosproject.event;version="[1.8,2)",org.onosproject.incubator.net.
+ config.basics;version="[1.8,2)",org.onosproject.mastership;version="[1.
+ 8,2)",org.onosproject.net;version="[1.8,2)",org.onosproject.net.behavio
+ ur;version="[1.8,2)",org.onosproject.net.config;version="[1.8,2)",org.o
+ nosproject.net.config.basics;version="[1.8,2)",org.onosproject.net.devi
+ ce;version="[1.8,2)",org.onosproject.net.driver;version="[1.8,2)",org.o
+ nosproject.net.provider;version="[1.8,2)",org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/org.onosproject.millimeterwaveport.MMwavePor
+ tProvider.xml
+Tool: Bnd-3.0.0.201509101326
