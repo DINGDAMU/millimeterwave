@@ -1,8 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1484920585181
+Bnd-LastModified: 1487326049440
 Build-Jdk: 1.8.0_51
 Built-By: dingdamu
-Bundle-Blueprint: OSGI-INF/blueprint/shell-config.xml
 Bundle-Description: An ONOS application for annotations on millimeter_wa
  ve links
 Bundle-ManifestVersion: 2
@@ -10,28 +9,19 @@ Bundle-Name: millimeterwavelink
 Bundle-SymbolicName: org.onosproject.millimeterwave.link
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
-Export-Package: org.onosproject.millimeterwavelink.cli;uses:="org.apache
- .karaf.shell.commands,org.onosproject.cli,org.onosproject.net,org.onosp
- roject.net.device,org.onosproject.net.host,org.onosproject.net.link";ve
- rsion="1.0.0",org.onosproject.millimeterwavelink;uses:="org.onosproject
- .core,org.onosproject.incubator.net.config.basics,org.onosproject.net.c
- onfig,org.onosproject.net.link,org.onosproject.net.provider";version="1
- .0.0"
+Export-Package: org.onosproject.millimeterwavelink;uses:="org.onosprojec
+ t.core,org.onosproject.incubator.net.config.basics,org.onosproject.net.
+ config,org.onosproject.net.link,org.onosproject.net.provider";version="
+ 1.0.0"
 Import-Package: com.fasterxml.jackson.databind;version="[2.7,3)",com.fas
  terxml.jackson.databind.node;version="[2.7,3)",com.google.common.base;v
- ersion="[19.0,20)",com.google.common.collect;version="[19.0,20)",org.ap
- ache.karaf.shell.commands;version="[3.0,4)",org.onlab.packet;version="[
- 1.8,2)",org.onlab.util;version="[1.8,2)",org.onosproject.cli;version="[
- 1.8,2)",org.onosproject.cli.net;version="[1.8,2)",org.onosproject.core;
- version="[1.8,2)",org.onosproject.event;version="[1.8,2)",org.onosproje
- ct.incubator.net.config.basics;version="[1.8,2)",org.onosproject.net;ve
- rsion="[1.8,2)",org.onosproject.net.behaviour;version="[1.8,2)",org.ono
+ ersion="[19.0,20)",com.google.common.collect;version="[19.0,20)",org.on
+ lab.util;version="[1.8,2)",org.onosproject.core;version="[1.8,2)",org.o
+ nosproject.event;version="[1.8,2)",org.onosproject.incubator.net.config
+ .basics;version="[1.8,2)",org.onosproject.net;version="[1.8,2)",org.ono
  sproject.net.config;version="[1.8,2)",org.onosproject.net.config.basics
- ;version="[1.8,2)",org.onosproject.net.device;version="[1.8,2)",org.ono
- sproject.net.driver;version="[1.8,2)",org.onosproject.net.host;version=
- "[1.8,2)",org.onosproject.net.link;version="[1.8,2)",org.onosproject.ne
- t.provider;version="[1.8,2)",org.osgi.service.blueprint;version="[1.0.0
- ,2.0.0)",org.slf4j;version="[1.7,2)"
+ ;version="[1.8,2)",org.onosproject.net.link;version="[1.8,2)",org.onosp
+ roject.net.provider;version="[1.8,2)",org.slf4j;version="[1.7,2)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Service-Component: OSGI-INF/org.onosproject.millimeterwavelink.MMwaveLin
  kProvider.xml

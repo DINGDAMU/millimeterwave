@@ -19,15 +19,16 @@
 
     <groupId>org.onosproject.millimeterwave</groupId>
     <artifactId>millimeterwave</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>millimeterwavelink</module>
         <module>millimeterwaveport</module>
+        <module>cli</module>
     </modules>
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
-    <description>An ONOS application for annotations on millimeter_wave on devices,ports and links</description>
+    <description>An ONOS application for annotations on millimeter_wave devices,ports and links</description>
     <url>http://onosproject.org</url>
 
 
