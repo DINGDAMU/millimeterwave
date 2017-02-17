@@ -14,7 +14,7 @@ A millimeterwave application based on onos
 
 # Installation 
     git clone https://github.com/DINGDAMU/millimeterwave-onos-app.git
-    cd Millimeterwave_onos_app
+    cd millimeterwave-onos-app
     mvn clean install 
     cd millimeterwavelink
     mvn clean install 
