@@ -11,7 +11,7 @@ import java.util.Set;
 
 public class MMwavePortProviderConfig extends Config<ApplicationId> {
     public static final String CONFIG_VALUE_ERROR = "Error parsing config value";
-    private static final String MMWAVE = "mmwave";
+    private static final String TECHNOLOGY = "technology";
     private static final String DeviceID = "deviceID";
     private static final String PORTNUMBER = "portnumber";
     private static final String ISENABLED="isEnabled";
@@ -24,11 +24,11 @@ public class MMwavePortProviderConfig extends Config<ApplicationId> {
 
         try {
             for (JsonNode node : array) {
-                long mmwave = node.path(MMWAVE).asLong();
+                String technology = node.path(TECHNOLOGY).asText();
                 String devicdID=node.path(DeviceID).asText();
                 int portnumber=node.path(PORTNUMBER).asInt();
                 boolean isEnabled=node.path(ISENABLED).asBoolean();
-                portAttributes.add(new PortAttributes(mmwave,devicdID,portnumber,isEnabled));
+                portAttributes.add(new PortAttributes(technology,devicdID,portnumber,isEnabled));
 
             }
         } catch (IllegalArgumentException e) {
@@ -38,14 +38,14 @@ public class MMwavePortProviderConfig extends Config<ApplicationId> {
         return portAttributes;
     }
     public class PortAttributes {
-        private final long mmwave;
+        private final String technology;
         private final String deviceID;
         private final int portnumber;
         private final boolean isEnabled;
 
 
-        public PortAttributes(long mmwave,String deviceID,int portnumber,boolean isEnabled) {
-            this.mmwave = mmwave;
+        public PortAttributes(String technology,String deviceID,int portnumber,boolean isEnabled) {
+            this.technology = technology;
             this.deviceID=deviceID;
             this.portnumber=portnumber;
             this.isEnabled=isEnabled;
@@ -54,8 +54,8 @@ public class MMwavePortProviderConfig extends Config<ApplicationId> {
 
 
 
-        public long getMMwave() {
-            return mmwave;
+        public String getTechnology() {
+            return technology;
         }
         public String getDeviceID(){
             return deviceID;

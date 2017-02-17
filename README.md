@@ -15,8 +15,11 @@ A millimeterwave application based on onos
 # Installation 
     git clone https://github.com/DINGDAMU/millimeterwave-onos-app.git
     cd millimeterwave-onos-app
-    mvn clean install 
-    cd millimeterwavelink
+    mvn clean install
+    cd cli
+    mvn clean install
+    onos-app localhost reinstall! target/*.oar
+    cd ../millimeterwavelink
     mvn clean install 
     onos-app localhost reinstall! target/*.oar
     cd ../millimeterwaveport
@@ -56,12 +59,15 @@ A millimeterwave application based on onos
       "links" : [{
         "src":"of:000000000000000e/5",
         "dst":"of:000000000000000f/3",
-        "length": "100"
+        "length": "100",
+        "capacity":"100",
+        "technology":"mmwave",
+        "ps":"0.86"
       }]
     },
     "org.onosproject.millimeterwaveport" : {
       "ports" : [{
-        "mmwave":"100",
+        "technology":"mmwave",
         "deviceID": "of:000000000000000a",
         "portnumber":"1",
         "isEnabled":"true"
@@ -69,5 +75,5 @@ A millimeterwave application based on onos
      }
     }
 ### Configuration  
-    onos-netcfg <ONOS's address> <path to JSON>/cfg.json 
+    onos-netcfg <ONOS's address> <path to JSON> 
 

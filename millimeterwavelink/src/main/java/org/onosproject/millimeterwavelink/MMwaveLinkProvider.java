@@ -68,6 +68,11 @@ public class MMwaveLinkProvider extends AbstractProvider
     protected static final String APP_NAME = "org.onosproject.millimeterwavelink";
     //private static final String SCHEME_NAME = "openflow";
     private static final String LENGTH = "length";
+    private static final String CAPACITY = "capacity";
+    private static final String TECHNOLOGY = "technology";
+    private static final String PS = "ps";
+
+
     private final ExecutorService executor =
             Executors.newFixedThreadPool(5, groupedThreads("onos/linkprovider", "link-installer-%d", log));
 
@@ -165,6 +170,15 @@ public class MMwaveLinkProvider extends AbstractProvider
                     long length = linkAttributes.getLength();
                     Preconditions.checkNotNull(length, "The link length is null!");
 
+                    long capacity = linkAttributes.getCapacity();
+                    Preconditions.checkNotNull(capacity, "The link capacity is null!");
+
+                    String technology = linkAttributes.getTechnology();
+                    Preconditions.checkNotNull(technology, "The technology is null!");
+
+                    String ps = linkAttributes.getPs();
+                    Preconditions.checkNotNull(ps, "The technology is null!");
+
                     String srcArg = linkAttributes.getSrc();
                     Preconditions.checkNotNull(srcArg, "The source connect_point is null!");
 
@@ -176,6 +190,9 @@ public class MMwaveLinkProvider extends AbstractProvider
                     //configuration object
                     SparseAnnotations annotations = DefaultAnnotations.builder()
                             .set(LENGTH, String.valueOf(length))
+                            .set(CAPACITY, String.valueOf(capacity))
+                            .set(TECHNOLOGY, String.valueOf(technology))
+                            .set(PS, String.valueOf(ps))
                             .build();
 
                     Link link = linkService.getLink(src, dst);

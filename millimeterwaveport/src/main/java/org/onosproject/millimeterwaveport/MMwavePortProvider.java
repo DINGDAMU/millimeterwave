@@ -86,7 +86,7 @@ public class MMwavePortProvider extends AbstractProvider
     private final Logger log = LoggerFactory.getLogger(getClass());
 
     protected static final String APP_NAME = "org.onosproject.millimeterwaveport";
-    private static final String MMWAVE = "mmwave";
+    private static final String TECHNOLOGY = "technology";
 
     private final ExecutorService executor =
             Executors.newFixedThreadPool(5, groupedThreads("onos/portprovider", "port-installer-%d", log));
@@ -184,8 +184,8 @@ public class MMwavePortProvider extends AbstractProvider
                 cfg.getPortAttributes().forEach(portAttributes -> {
 
                     //configuration objects
-                    long mmwave = portAttributes.getMMwave();
-                    Preconditions.checkNotNull(mmwave, "The millimeter wave is null!");
+                    String tecnology = portAttributes.getTechnology();
+                    Preconditions.checkNotNull(tecnology, "The technology wave is null!");
 
                     String deviceID = portAttributes.getDeviceID();
                     Preconditions.checkNotNull(deviceID, "The  deviceID is null!");
@@ -201,20 +201,21 @@ public class MMwavePortProvider extends AbstractProvider
 
                     //configuration object
                     SparseAnnotations annotations_port = DefaultAnnotations.builder()
-                            .set(MMWAVE, String.valueOf(mmwave))
+                            .set(TECHNOLOGY, String.valueOf(tecnology))
                             .build();
                     SparseAnnotations annotations_device = DefaultAnnotations.builder()
                             .build();
 
 
                     //Must discover devices and get device description before ports' annotation
-                    DeviceDescription deviceDescription =new DefaultDeviceDescription(device.id().uri(), device.type(),
-                                                                                      device.manufacturer(), device.hwVersion(),
-                                                                                      device.swVersion(), device.serialNumber(),
-                                                                                      device.chassisId(), false, annotations_device);
-                    deviceProviderService.deviceConnected(device.id(),deviceDescription);
+                    if(device!=null) {
+                        DeviceDescription deviceDescription = new DefaultDeviceDescription(device.id().uri(), device.type(),
+                                                                                           device.manufacturer(), device.hwVersion(),
+                                                                                           device.swVersion(), device.serialNumber(),
+                                                                                           device.chassisId(), false, annotations_device);
+                        deviceProviderService.deviceConnected(device.id(), deviceDescription);
 
-
+                    }
 
                     //if ports are not discovered, retry the discovery
                     if (deviceService.getPorts(device.id()).isEmpty()) {

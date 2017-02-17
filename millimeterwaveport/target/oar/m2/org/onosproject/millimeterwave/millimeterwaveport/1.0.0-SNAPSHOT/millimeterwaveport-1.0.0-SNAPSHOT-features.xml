@@ -14,10 +14,10 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0" name="millimeterwaveport-1.0-SNAPSHOT">
-    <feature name="millimeterwaveport" version="1.0-SNAPSHOT"
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0" name="millimeterwaveport-1.0.0-SNAPSHOT">
+    <feature name="millimeterwaveport" version="1.0.0-SNAPSHOT"
              description="An ONOS application for annotations on millimeter_wave on ports">
         <feature>onos-api</feature>
-        <bundle>mvn:org.onosproject.millimeterwave/millimeterwaveport/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.onosproject.millimeterwave/millimeterwaveport/1.0.0-SNAPSHOT</bundle>
     </feature>
 </features>
