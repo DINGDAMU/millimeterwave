@@ -77,7 +77,7 @@ A millimeterwave application based on onos
 ### Configuration  
      onos>onos-netcfg <ONOS's address> <path to JSON>
 
-### License
+# License
 Copyright -present Open Networking Laboratory
 
 Licensed under the Apache License, Version 2.0 (the "License");
