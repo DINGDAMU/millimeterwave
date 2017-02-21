@@ -75,5 +75,5 @@ A millimeterwave application based on onos
      }
     }
 ### Configuration  
-    onos-netcfg <ONOS's address> <path to JSON> 
+    onos>onos-netcfg <ONOS's address> <path to JSON> 
 
