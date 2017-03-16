@@ -111,7 +111,7 @@ public class mmWavePathsCommand extends AbstractShellCommand {
             //This can help us to define cost function by annotations
             String v = edge.link().annotations().value("ps");
             try {
-                return v != null ? 1/Double.parseDouble(v) : 1;
+                return v != null ? 1/(Double.parseDouble(v) /100): 999;
             } catch (NumberFormatException e) {
                 return 0;
             }

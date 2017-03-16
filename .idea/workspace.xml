@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4452bd1-93bb-415c-9c78-aecec4cf6bdd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/classes/org/onosproject/mmcli/ShowComponentsCommand.class" afterPath="$PROJECT_DIR$/cli/target/classes/org/onosproject/mmcli/ShowComponentsCommand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/cli-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cli/target/cli-1.0.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/cli-1.0.0-SNAPSHOT.oar" afterPath="$PROJECT_DIR$/cli/target/cli-1.0.0-SNAPSHOT.oar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/oar/m2/org/onosproject/millimeterwave/cli/1.0.0-SNAPSHOT/cli-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cli/target/oar/m2/org/onosproject/millimeterwave/cli/1.0.0-SNAPSHOT/cli-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/cli.iml" afterPath="$PROJECT_DIR$/cli/cli.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/ShowComponentsCommand.java" afterPath="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/ShowComponentsCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/src/main/resources/OSGI-INF/blueprint/shell-config.xml" afterPath="$PROJECT_DIR$/cli/src/main/resources/OSGI-INF/blueprint/shell-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/mmWavePathsCommand.java" afterPath="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/mmWavePathsCommand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/cli/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/classes/OSGI-INF/blueprint/shell-config.xml" afterPath="$PROJECT_DIR$/cli/target/classes/OSGI-INF/blueprint/shell-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProvider.java" afterPath="$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/millimeterwavelink/target/" />
@@ -42,9 +32,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2268">
               <caret line="214" column="84" lean-forward="false" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="84" />
-              <folding>
-                <element signature="e#0#9185#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,21 +40,11 @@
       <file leaf-file-name="mmWavePathsCommand.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/mmWavePathsCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="118" column="5" lean-forward="true" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
+            <state relative-caret-position="705">
+              <caret line="110" column="69" lean-forward="true" selection-start-line="110" selection-start-column="69" selection-end-line="110" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cfg2.json" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/cfg2.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -86,7 +64,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
               <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MMwaveWeight.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/millimeterwaveweight/src/main/java/org/onosproject/millimeterwaveweight/MMwaveWeight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="691">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -268,8 +260,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -542,7 +534,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -560,7 +552,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30408162" sideWeight="0.497558" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25763127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26068377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -602,9 +594,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2058">
           <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9185#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -644,9 +634,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2058">
           <caret line="196" column="0" lean-forward="true" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9185#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -869,31 +857,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/mmwaveLinkWeight.java" />
-    <entry file="file://$PROJECT_DIR$/millimeterwaveweight/src/main/java/org/onosproject/millimeterwaveweight/mmwaveLinkWeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/millimeterwaveweight/src/main/java/org/onosproject/millimeterwaveweight/MMwaveWeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2268">
           <caret line="214" column="84" lean-forward="false" selection-start-line="214" selection-start-column="62" selection-end-line="214" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#9185#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -901,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,10 +920,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/millimeterwaveweight/src/main/java/org/onosproject/millimeterwaveweight/mmwaveLinkWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/millimeterwaveweight/src/main/java/org/onosproject/millimeterwaveweight/MMwaveWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/mmWavePathsCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="118" column="5" lean-forward="true" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
+        <state relative-caret-position="705">
+          <caret line="110" column="69" lean-forward="true" selection-start-line="110" selection-start-column="69" selection-end-line="110" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
