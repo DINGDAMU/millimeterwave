@@ -51,6 +51,11 @@ A millimeterwave application based on onos
 ### Add additional annotations on ports
     onos>annotate-ports <deviceID> <Port number> <Port state> <key> <value>
     
+## Find the shortest path with own custmized link weight
+    onos>mmwave-paths <source DeviceId> <destination DeviceId>
+In our case, the cost depends from the annotation value "probablity of success".  
+If it's not annotated, the cost would be 1, otherwise it equals to 1/ps.
+    
 ## Use JSON files to annotate millimeterwave links and port 
 ### A JSON example  
     {
@@ -62,7 +67,7 @@ A millimeterwave application based on onos
         "length": "100",
         "capacity":"100",
         "technology":"mmwave",
-        "ps":"0.86"
+        "ps":"86"
       }]
     },
     "org.onosproject.millimeterwaveport" : {
