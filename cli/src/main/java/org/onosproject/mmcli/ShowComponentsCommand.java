@@ -16,7 +16,7 @@ import org.onosproject.net.link.LinkService;
 /**
  * Created by dingdamu on 17/1/4.
  */
-@Command(scope = "onos", name = "Showcomponents",
+@Command(scope = "onos", name = "showcomponents",
         description = "Lists all components in the current topology")
 public class ShowComponentsCommand extends AbstractShellCommand {
 

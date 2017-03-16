@@ -24,6 +24,7 @@
         <module>millimeterwavelink</module>
         <module>millimeterwaveport</module>
         <module>cli</module>
+        <module>millimeterwaveweight</module>
     </modules>
     <packaging>pom</packaging>
 

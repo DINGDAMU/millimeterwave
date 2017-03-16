@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/millimeterwave.iml" filepath="$PROJECT_DIR$/millimeterwave.iml" />
       <module fileurl="file://$PROJECT_DIR$/millimeterwavelink/millimeterwavelink.iml" filepath="$PROJECT_DIR$/millimeterwavelink/millimeterwavelink.iml" />
       <module fileurl="file://$PROJECT_DIR$/millimeterwaveport/millimeterwaveport.iml" filepath="$PROJECT_DIR$/millimeterwaveport/millimeterwaveport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/millimeterwaveweight/millimeterwaveweight.iml" filepath="$PROJECT_DIR$/millimeterwaveweight/millimeterwaveweight.iml" />
     </modules>
   </component>
 </project>

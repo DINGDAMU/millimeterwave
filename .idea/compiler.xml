@@ -9,6 +9,7 @@
         <module name="cli" />
         <module name="millimeterwavelink" />
         <module name="millimeterwaveport" />
+        <module name="millimeterwaveweight" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="millimeterwave" target="1.8" />
       <module name="millimeterwavelink" target="1.8" />
       <module name="millimeterwaveport" target="1.8" />
+      <module name="millimeterwaveweight" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -27,6 +27,7 @@ import org.onosproject.incubator.net.config.basics.ConfigException;
 import org.onosproject.net.ConnectPoint;
 import org.onosproject.net.DefaultAnnotations;
 import org.onosproject.net.Link;
+import org.onosproject.net.Path;
 import org.onosproject.net.SparseAnnotations;
 import org.onosproject.net.config.ConfigFactory;
 import org.onosproject.net.config.NetworkConfigEvent;
@@ -42,10 +43,12 @@ import org.onosproject.net.link.LinkProviderService;
 import org.onosproject.net.link.LinkService;
 import org.onosproject.net.provider.AbstractProvider;
 import org.onosproject.net.provider.ProviderId;
+import org.onosproject.net.topology.PathService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
+import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -57,7 +60,7 @@ import static org.onosproject.net.config.basics.SubjectFactories.APP_SUBJECT_FAC
  * Skeletal ONOS application component.
  */
 @Component(immediate = true)
-public class MMwaveLinkProvider extends AbstractProvider
+public  class MMwaveLinkProvider extends AbstractProvider
         implements LinkProvider {
 
 
@@ -70,7 +73,7 @@ public class MMwaveLinkProvider extends AbstractProvider
     private static final String LENGTH = "length";
     private static final String CAPACITY = "capacity";
     private static final String TECHNOLOGY = "technology";
-    private static final String PS = "ps";
+    private  static final String PS = "ps";
 
 
     private final ExecutorService executor =
@@ -92,6 +95,9 @@ public class MMwaveLinkProvider extends AbstractProvider
 
     @Reference(cardinality = ReferenceCardinality.MANDATORY_UNARY)
     protected CoreService coreService;
+
+    @Reference(cardinality = ReferenceCardinality.MANDATORY_UNARY)
+    protected PathService pathService;
 
     @Reference(cardinality = ReferenceCardinality.MANDATORY_UNARY)
     protected LinkProviderRegistry providerRegistry;
@@ -196,6 +202,11 @@ public class MMwaveLinkProvider extends AbstractProvider
                             .build();
 
                     Link link = linkService.getLink(src, dst);
+
+
+
+
+
                     if (link== null) {
                         log.warn("Link {} has not been added to store, " +
                                          "maybe due to a problem in connectivity", src + "/" + dst);
@@ -212,6 +223,8 @@ public class MMwaveLinkProvider extends AbstractProvider
             }
         }
     }
+
+
 
     /**
      * Listener for core link events.

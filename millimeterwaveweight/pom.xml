@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>millimeterwave</artifactId>
+        <groupId>org.onosproject.millimeterwave</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>millimeterwaveweight</artifactId>
+
+    <description>An ONOS application for annotations on millimeter_wave on weight</description>
+    <url>http://onosproject.org</url>
+    <packaging>bundle</packaging>
+
+
+    <properties>
+        <onos.app.name>org.onosproject.millimeterwaveweight</onos.app.name>
+        <onos.app.origin>CREATE-NET</onos.app.origin>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <onos.version>1.8.0</onos.version>
+        <!-- Uncomment to generate ONOS app from this module.
+        <onos.app.name>org.foo.app</onos.app.name>
+        <onos.app.title>Foo App</onos.app.title>
+        <onos.app.origin>Foo, Inc.</onos.app.origin>
+        <onos.app.category>default</onos.app.category>
+        <onos.app.url>http://onosproject.org</onos.app.url>
+        <onos.app.readme>ONOS OSGi bundle archetype.</onos.app.readme>
+        -->
+    </properties>
+</project>

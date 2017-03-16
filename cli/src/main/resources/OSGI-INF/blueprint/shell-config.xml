@@ -54,6 +54,14 @@
             </completers>
         </command>
 
+        <command>
+            <action class="org.onosproject.mmcli.mmWavePathsCommand"/>
+            <completers>
+                <ref component-id="deviceIdCompleter"/>
+                <ref component-id="deviceIdCompleter"/>
+            </completers>
+        </command>
+
     </command-bundle>
 
 
