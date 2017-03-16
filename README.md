@@ -55,7 +55,7 @@ A millimeterwave application based on onos
 ## Find the shortest path with own custmized link weight
     onos>mmwave-paths <source DeviceId> <destination DeviceId>
 In our case, the cost depends from the annotation value "probablity of success".  
-If it's not annotated, the cost would be 1, otherwise it equals to 1/ps.
+If it's not annotated, the cost would be 999, otherwise it equals to 1/(ps/100).
     
 ## Use JSON files to annotate millimeterwave links and port 
 ### A JSON example  
