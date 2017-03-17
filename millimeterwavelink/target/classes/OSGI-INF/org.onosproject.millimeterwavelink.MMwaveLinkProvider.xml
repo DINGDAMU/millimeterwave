@@ -5,5 +5,6 @@
     <reference name="cfgService" interface="org.onosproject.net.config.NetworkConfigRegistry" cardinality="1..1" policy="static" bind="bindCfgService" unbind="unbindCfgService"/>
     <reference name="linkService" interface="org.onosproject.net.link.LinkService" cardinality="1..1" policy="static" bind="bindLinkService" unbind="unbindLinkService"/>
     <reference name="coreService" interface="org.onosproject.core.CoreService" cardinality="1..1" policy="static" bind="bindCoreService" unbind="unbindCoreService"/>
+    <reference name="pathService" interface="org.onosproject.net.topology.PathService" cardinality="1..1" policy="static" bind="bindPathService" unbind="unbindPathService"/>
     <reference name="providerRegistry" interface="org.onosproject.net.link.LinkProviderRegistry" cardinality="1..1" policy="static" bind="bindProviderRegistry" unbind="unbindProviderRegistry"/>
 </scr:component>

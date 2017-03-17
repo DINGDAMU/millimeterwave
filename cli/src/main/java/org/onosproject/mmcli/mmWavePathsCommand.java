@@ -7,16 +7,12 @@ import org.apache.karaf.shell.commands.Argument;
 import org.apache.karaf.shell.commands.Command;
 import org.onosproject.cli.AbstractShellCommand;
 import org.onosproject.cli.net.LinksListCommand;
-import org.onosproject.net.AnnotationKeys;
-import org.onosproject.net.ConnectPoint;
 import org.onosproject.net.DeviceId;
 import org.onosproject.net.Link;
 import org.onosproject.net.Path;
 import org.onosproject.net.topology.LinkWeight;
-import org.onosproject.net.topology.PathService;
 import org.onosproject.net.topology.Topology;
 import org.onosproject.net.topology.TopologyEdge;
-import org.onosproject.net.topology.HopCountLinkWeight;
 import org.onosproject.net.topology.TopologyService;
 
 
@@ -111,7 +107,10 @@ public class mmWavePathsCommand extends AbstractShellCommand {
             //This can help us to define cost function by annotations
             String v = edge.link().annotations().value("ps");
             try {
-                return v != null ? 1/(Double.parseDouble(v) /100): 999;
+                return v != null ? 1+(1/(Double.parseDouble(v) /100)): 101;
+                //total cost = fixed cost + dynamic cost
+                // In Ethernet case, total cost = 100 + 1; (ps = 1)
+                // In mm-wave case, total cost = 1 + 1/ps;
             } catch (NumberFormatException e) {
                 return 0;
             }

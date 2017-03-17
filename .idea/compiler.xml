@@ -7,14 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cli" />
+        <module name="millimeterwaveintent" />
         <module name="millimeterwavelink" />
         <module name="millimeterwaveport" />
-        <module name="millimeterwaveweight" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cli" target="1.8" />
       <module name="millimeterwave" target="1.8" />
+      <module name="millimeterwaveintent" target="1.8" />
       <module name="millimeterwavelink" target="1.8" />
       <module name="millimeterwaveport" target="1.8" />
       <module name="millimeterwaveweight" target="1.8" />

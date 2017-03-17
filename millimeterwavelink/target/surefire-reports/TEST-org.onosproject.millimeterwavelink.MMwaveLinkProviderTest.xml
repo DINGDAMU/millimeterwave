@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.onosproject.millimeterwavelink.MMwaveLinkProviderTest" time="0.142" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.onosproject.millimeterwavelink.MMwaveLinkProviderTest" time="0.287" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.51-b03"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/dingdamu/millimeterwave/millimeterwavelink"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/dingdamu/millimeterwave"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,14 +16,13 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/dingdamu/millimeterwave/millimeterwavelink"/>
+    <property name="user.dir" value="/Users/dingdamu/millimeterwave"/>
     <property name="java.runtime.version" value="1.8.0_51-b16"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.io.tmpdir" value="/var/folders/gs/qhfr3b5j6ll_ht980hg8swl80000gn/T/"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="socksProxyPort" value="7070"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="classworlds.conf" value="/usr/local/maven/apache-maven-3.3.9/bin/m2.conf"/>
@@ -40,7 +39,6 @@
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="dingdamu"/>
     <property name="java.class.path" value="/usr/local/maven/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
-    <property name="socksProxyHost" value="127.0.0.1"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre"/>
@@ -60,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="basics" classname="org.onosproject.millimeterwavelink.MMwaveLinkProviderTest" time="0.003"/>
+  <testcase name="basics" classname="org.onosproject.millimeterwavelink.MMwaveLinkProviderTest" time="0.004"/>
 </testsuite>
