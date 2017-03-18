@@ -26,6 +26,9 @@
             </completers>
         </command>
 
+        <command>
+            <action class="org.onosproject.millimeterwaveintent.cli.ListmmWaveIntentCommand"/>
+        </command>
 
 
     </command-bundle>

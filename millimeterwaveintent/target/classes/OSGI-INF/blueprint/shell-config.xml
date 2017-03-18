@@ -19,13 +19,16 @@
 
 
         <command>
-            <action class="org.onosproject.millimeterwaveintent.cli.mmWaveIntentCommand"/>
+            <action class="org.onosproject.millimeterwaveintent.cli.AddmmWaveIntentCommand"/>
             <completers>
                 <ref component-id="hostIdCompleter"/>
                 <ref component-id="hostIdCompleter"/>
             </completers>
         </command>
 
+        <command>
+            <action class="org.onosproject.millimeterwaveintent.cli.ListmmWaveIntentCommand"/>
+        </command>
 
 
     </command-bundle>

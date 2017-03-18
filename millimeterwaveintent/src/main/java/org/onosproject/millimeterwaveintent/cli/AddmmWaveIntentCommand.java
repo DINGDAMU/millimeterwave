@@ -27,7 +27,7 @@ import static org.onosproject.net.flow.DefaultTrafficSelector.builder;
 /**
  * Created by dingdamu on 2017/3/17.
  */
-@Command(scope = "onos", name = "add-mmwave-intent",
+@Command(scope = "onos", name = "mmwave-add-intent",
         description = "Installs mm-wave intents")
 public class AddmmWaveIntentCommand extends ConnectivityIntentCommand {
     @Argument(index = 0, name = "src_host", description = "One host ID",
