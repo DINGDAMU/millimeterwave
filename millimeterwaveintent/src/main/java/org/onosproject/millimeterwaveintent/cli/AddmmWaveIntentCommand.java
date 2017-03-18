@@ -1,4 +1,4 @@
-package cli;
+package org.onosproject.millimeterwaveintent.cli;
 
 import org.apache.karaf.shell.commands.Argument;
 import org.apache.karaf.shell.commands.Command;
@@ -17,9 +17,7 @@ import org.onosproject.net.intent.IntentService;
 import org.onosproject.net.intent.PathIntent;
 import org.onosproject.net.topology.LinkWeight;
 import org.onosproject.net.topology.PathService;
-import org.onosproject.net.topology.Topology;
 import org.onosproject.net.topology.TopologyEdge;
-import org.onosproject.net.topology.TopologyService;
 
 import java.util.List;
 import java.util.Set;
@@ -30,24 +28,21 @@ import static org.onosproject.net.flow.DefaultTrafficSelector.builder;
  * Created by dingdamu on 2017/3/17.
  */
 @Command(scope = "onos", name = "add-mmwave-intent",
-        description = "Installs mm-wave intent")
-public class mmWaveIntentCommand extends ConnectivityIntentCommand {
-    @Argument(index = 0, name = "one", description = "One host ID",
+        description = "Installs mm-wave intents")
+public class AddmmWaveIntentCommand extends ConnectivityIntentCommand {
+    @Argument(index = 0, name = "src_host", description = "One host ID",
             required = true, multiValued = false)
     String srcArg = null;
 
-    @Argument(index = 1, name = "two", description = "Another host ID",
+    @Argument(index = 1, name = "dst_host" +
+            "]", description = "Another host ID",
             required = true, multiValued = false)
     String dstArg = null;
 
-    protected TopologyService topologyService;
-    protected Topology topology;
     protected PathService pathService;
     protected HostService hostService;
-    //In our case we need to use topologyService not pathService
+    //In our case we need to use pathService
     protected void init() {
-        topologyService = get(TopologyService.class);
-        topology = topologyService.currentTopology();
         pathService=get(PathService.class);
         hostService =get(HostService.class);
     }
@@ -75,7 +70,6 @@ public class mmWaveIntentCommand extends ConnectivityIntentCommand {
                 .priority(priority())
                 .build();
 
-       // Set<Path> paths = topologyService.getPaths(topology, src, dst, new mmwaveLinkWeight());
         Set<Path> paths = pathService.getPaths(src,dst,new mmwaveLinkWeight());
         Host srchost = hostService.getHost(src);
         Host dsthost = hostService.getHost(dst);

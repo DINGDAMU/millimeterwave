@@ -19,7 +19,11 @@
 
 
         <command>
-            <action class="org.onosproject."/>
+            <action class="org.onosproject.millimeterwaveintent.cli.AddmmWaveIntentCommand"/>
+            <completers>
+                <ref component-id="hostIdCompleter"/>
+                <ref component-id="hostIdCompleter"/>
+            </completers>
         </command>
 
 
@@ -32,6 +36,7 @@
     <bean id="linkSrcCompleter" class="org.onosproject.cli.net.LinkSrcCompleter"/>
     <bean id="linkDstCompleter" class="org.onosproject.cli.net.LinkDstCompleter"/>
     <bean id="portNumberCompleter" class="org.onosproject.cli.net.PortNumberCompleter"/>
+    <bean id="hostIdCompleter" class="org.onosproject.cli.net.HostIdCompleter"/>
 
 
 

@@ -11,18 +11,17 @@ import org.onosproject.net.DeviceId;
 import org.onosproject.net.Link;
 import org.onosproject.net.Path;
 import org.onosproject.net.topology.LinkWeight;
-import org.onosproject.net.topology.Topology;
+import org.onosproject.net.topology.PathService;
 import org.onosproject.net.topology.TopologyEdge;
-import org.onosproject.net.topology.TopologyService;
 
 
 import java.util.Set;
 
 import static org.onosproject.cli.net.LinksListCommand.compactLinkString;
 
-@Command(scope = "onos", name = "mmwave-paths",
-        description = "calculate shortest path with own customized link weight")
-public class mmWavePathsCommand extends AbstractShellCommand {
+@Command(scope = "onos", name = "mmwave-devices-paths",
+        description = "calculate shortest path betweeen devices with own customized link weight")
+public class mmWavePathsDevicesCommand extends AbstractShellCommand {
     private static final String SEP = "==>";
     @Argument(index = 0, name = "src", description = "Source device ID",
             required = true, multiValued = false)
@@ -33,12 +32,10 @@ public class mmWavePathsCommand extends AbstractShellCommand {
     String dstArg = null;
 
 
-    protected TopologyService service;
-    protected Topology topology;
-    //In our case we need to use topologyService not pathService
+    protected PathService pathService;
+    //In our case we need to use pathService (ElementID is more comfortable than DeviceID in Topology.getPath() case)
     protected void init() {
-        service = get(TopologyService.class);
-        topology = service.currentTopology();
+        pathService = get(PathService.class);
     }
     @Override
     protected void execute() {
@@ -50,8 +47,7 @@ public class mmWavePathsCommand extends AbstractShellCommand {
             print("Expected device IDs as arguments");
             return;
         }
-
-       Set<Path> paths = service.getPaths(topology,src,dst,new mmwaveLinkWeight());
+        Set<Path> paths = pathService.getPaths(src,dst,new mmwaveLinkWeight());
         if(paths.isEmpty()){
             print("The path is empty!");
             return;
