@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cli/cli.iml" filepath="$PROJECT_DIR$/cli/cli.iml" />
       <module fileurl="file://$PROJECT_DIR$/millimeterwave.iml" filepath="$PROJECT_DIR$/millimeterwave.iml" />
-      <module fileurl="file://$PROJECT_DIR$/millimeterwaveintent/millimeterwaveintent.iml" filepath="$PROJECT_DIR$/millimeterwaveintent/millimeterwaveintent.iml" />
       <module fileurl="file://$PROJECT_DIR$/millimeterwavelink/millimeterwavelink.iml" filepath="$PROJECT_DIR$/millimeterwavelink/millimeterwavelink.iml" />
       <module fileurl="file://$PROJECT_DIR$/millimeterwaveport/millimeterwaveport.iml" filepath="$PROJECT_DIR$/millimeterwaveport/millimeterwaveport.iml" />
     </modules>

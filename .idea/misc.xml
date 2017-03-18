@@ -12,6 +12,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/millimeterwaveIntent/pom.xml" />
+        <option value="$PROJECT_DIR$/millimeterwaveintent/pom.xml" />
       </set>
     </option>
   </component>

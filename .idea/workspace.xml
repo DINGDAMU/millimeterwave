@@ -2,19 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4452bd1-93bb-415c-9c78-aecec4cf6bdd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/RemovemmWaveIntentCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/millimeterwaveintent.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/AddmmWaveIntentCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/ListmmWaveIntentCommand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/src/main/resources/OSGI-INF/blueprint/shell-config.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/classes/org/onosproject/millimeterwaveintent/cli/mmWaveIntentCommand$mmwaveLinkWeight.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/classes/org/onosproject/millimeterwaveintent/cli/mmWaveIntentCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/classes/OSGI-INF/blueprint/shell-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/classes/org/onosproject/millimeterwaveintent/cli/AddmmWaveIntentCommand$mmwaveLinkWeight.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/classes/org/onosproject/millimeterwaveintent/cli/AddmmWaveIntentCommand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/classes/org/onosproject/millimeterwaveintent/cli/ListmmWaveIntentCommand$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/classes/org/onosproject/millimeterwaveintent/cli/ListmmWaveIntentCommand$IntentSummaries$IntentSummary.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/classes/org/onosproject/millimeterwaveintent/cli/ListmmWaveIntentCommand$IntentSummaries.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/classes/org/onosproject/millimeterwaveintent/cli/ListmmWaveIntentCommand.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/millimeterwaveintent-1.0.0-SNAPSHOT.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/millimeterwaveintent-1.0.0-SNAPSHOT.oar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/oar/app.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/oar/m2/org/onosproject/millimeterwave/millimeterwaveintent/1.0.0-SNAPSHOT/millimeterwaveintent-1.0.0-SNAPSHOT-features.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/oar/m2/org/onosproject/millimeterwave/millimeterwaveintent/1.0.0-SNAPSHOT/millimeterwaveintent-1.0.0-SNAPSHOT.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/classes/org/onosproject/mmcli/mmWaveHostsPathsCommand$mmwaveLinkWeight.class" afterPath="$PROJECT_DIR$/cli/target/classes/org/onosproject/mmcli/mmWaveHostsPathsCommand$mmwaveLinkWeight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/classes/org/onosproject/mmcli/mmWaveHostsPathsCommand.class" afterPath="$PROJECT_DIR$/cli/target/classes/org/onosproject/mmcli/mmWaveHostsPathsCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/cli-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cli/target/cli-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/cli-1.0.0-SNAPSHOT.oar" afterPath="$PROJECT_DIR$/cli/target/cli-1.0.0-SNAPSHOT.oar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/oar/m2/org/onosproject/millimeterwave/cli/1.0.0-SNAPSHOT/cli-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/cli/target/oar/m2/org/onosproject/millimeterwave/cli/1.0.0-SNAPSHOT/cli-1.0.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/AddmmWaveIntentCommand.java" afterPath="$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/AddmmWaveIntentCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwaveintent/src/main/resources/OSGI-INF/blueprint/shell-config.xml" afterPath="$PROJECT_DIR$/millimeterwaveintent/src/main/resources/OSGI-INF/blueprint/shell-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwaveintent/target/classes/OSGI-INF/blueprint/shell-config.xml" afterPath="$PROJECT_DIR$/millimeterwaveintent/target/classes/OSGI-INF/blueprint/shell-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/src/main/resources/OSGI-INF/blueprint/shell-config.xml" afterPath="$PROJECT_DIR$/cli/src/main/resources/OSGI-INF/blueprint/shell-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/cli/target/classes/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cli/target/classes/OSGI-INF/blueprint/shell-config.xml" afterPath="$PROJECT_DIR$/cli/target/classes/OSGI-INF/blueprint/shell-config.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/millimeterwavelink/target/" />
@@ -79,43 +93,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shell-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/millimeterwaveintent/src/main/resources/OSGI-INF/blueprint/shell-config.xml">
+      <file leaf-file-name="AddmmWaveIntentCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/AddmmWaveIntentCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="29" column="91" lean-forward="false" selection-start-line="29" selection-start-column="91" selection-end-line="29" selection-end-column="91" />
+            <state relative-caret-position="294">
+              <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListmmWaveIntentCommand.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/ListmmWaveIntentCommand.java">
+      <file leaf-file-name="ListmmWaveIntentCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/ListmmWaveIntentCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="390" column="62" lean-forward="false" selection-start-line="390" selection-start-column="62" selection-end-line="390" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shell-config.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="shell-config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cli/src/main/resources/OSGI-INF/blueprint/shell-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="69" column="12" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="69" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/millimeterwaveintent/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="490">
+              <caret line="81" column="72" lean-forward="false" selection-start-line="81" selection-start-column="72" selection-end-line="81" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -173,13 +175,15 @@
         <option value="$PROJECT_DIR$/millimeterwaveintent/src/main/resources/blueprint/shell-config.xml" />
         <option value="$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/mmWaveIntentCommand.java" />
         <option value="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/mmWavePathsCommand.java" />
-        <option value="$PROJECT_DIR$/cli/src/main/resources/OSGI-INF/blueprint/shell-config.xml" />
         <option value="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/mmWavePathsDevicesCommand.java" />
         <option value="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/mmWaveHostsPathsCommand.java" />
         <option value="$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/RemovemmWaveIntentCommand.java" />
         <option value="$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/AddmmWaveIntentCommand.java" />
         <option value="$PROJECT_DIR$/millimeterwaveintent/src/main/resources/OSGI-INF/blueprint/shell-config.xml" />
         <option value="$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/ListmmWaveIntentCommand.java" />
+        <option value="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/AddmmWaveIntentCommand.java" />
+        <option value="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/ListmmWaveIntentCommand.java" />
+        <option value="$PROJECT_DIR$/cli/src/main/resources/OSGI-INF/blueprint/shell-config.xml" />
       </list>
     </option>
   </component>
@@ -221,208 +225,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwavelink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwaveintent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwaveintent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwaveintent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blueprint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwaveintent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blueprint" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="millimeterwave" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mmcli" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -707,7 +509,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -725,7 +527,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30408162" sideWeight="0.497558" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26373628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26373628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -763,20 +565,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/cfg2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/AnnotatePortCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -1088,39 +876,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/millimeterwaveintent/src/main/resources/OSGI-INF/blueprint/shell-config.xml">
+    <entry file="file://$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/ListmmWaveIntentCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="29" column="91" lean-forward="false" selection-start-line="29" selection-start-column="91" selection-end-line="29" selection-end-column="91" />
+        <state relative-caret-position="842">
+          <caret line="405" column="0" lean-forward="true" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/AddmmWaveIntentCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
+        <state relative-caret-position="-349">
           <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/AddmmWaveIntentCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/ListmmWaveIntentCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/millimeterwaveintent/src/main/resources/OSGI-INF/blueprint/shell-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cli/src/main/resources/OSGI-INF/blueprint/shell-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="69" column="12" lean-forward="false" selection-start-line="66" selection-start-column="24" selection-end-line="69" selection-end-column="12" />
+        <state relative-caret-position="490">
+          <caret line="81" column="72" lean-forward="false" selection-start-line="81" selection-start-column="72" selection-end-line="81" selection-end-column="72" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/millimeterwaveintent/src/main/java/org/onosproject/millimeterwaveintent/cli/ListmmWaveIntentCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="390" column="62" lean-forward="false" selection-start-line="390" selection-start-column="62" selection-end-line="390" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

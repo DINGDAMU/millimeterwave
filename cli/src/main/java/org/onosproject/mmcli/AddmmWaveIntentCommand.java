@@ -1,9 +1,8 @@
-package org.onosproject.millimeterwaveintent.cli;
+package org.onosproject.mmcli;
 
 import org.apache.karaf.shell.commands.Argument;
 import org.apache.karaf.shell.commands.Command;
 import org.onosproject.cli.net.ConnectivityIntentCommand;
-import org.onosproject.net.DeviceId;
 import org.onosproject.net.Host;
 import org.onosproject.net.HostId;
 import org.onosproject.net.Path;

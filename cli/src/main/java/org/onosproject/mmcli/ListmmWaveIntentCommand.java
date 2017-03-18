@@ -1,4 +1,4 @@
-package org.onosproject.millimeterwaveintent.cli;
+package org.onosproject.mmcli;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -8,7 +8,6 @@ import org.apache.karaf.shell.commands.Command;
 import org.apache.karaf.shell.commands.Option;
 import org.onlab.util.StringFilter;
 import org.onosproject.cli.AbstractShellCommand;
-import org.onosproject.cli.net.IntentsListCommand;
 import org.onosproject.net.intent.ConnectivityIntent;
 import org.onosproject.net.intent.HostToHostIntent;
 import org.onosproject.net.intent.Intent;
