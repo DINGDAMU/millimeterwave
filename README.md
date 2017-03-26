@@ -61,13 +61,14 @@ In mm-wave case, total cost = 1 + 1/(ps/100);
 
 ## Add mm-wave intents  
     onos>mmwave-add-intents <hostId 1> <hostId 2>  
-Add the intent between host1 and host2, the path will be the shortest path which calculated by own cost instead of the default cost by **add-host-intent** command.  
+Add the intents with the shortest path between two hosts.
 
 ## List mm-wave intents  
-    onos>mmwave-intens  
-It's similar as **intents** command, but in **intents** case, the cost value must be an integer.  Unfortunately, the cost value usually is a double value, so in **mm-wave intents** command I added the support of  double cost value.  
+    onos>intents  
 
-To remove mm-wave intents, simply use **remove-intent** command.  
+
+## remove mm-wave intents  
+    onos>remove-intent <APP name> <intent's ID>  
 
 ## Use JSON files to annotate millimeterwave links and port  
 ### A JSON example  
