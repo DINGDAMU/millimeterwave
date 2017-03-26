@@ -61,7 +61,7 @@ In mm-wave case, total cost = 1 + 1/(ps/100);
 
 ## Add mm-wave intents  
     onos>mmwave-add-intents <hostId 1> <hostId 2>  
-Add the intents with the shortest path between two hosts.
+Add the intents with the shortest mm-wave path between two hosts.
 
 ## List mm-wave intents  
     onos>intents  
