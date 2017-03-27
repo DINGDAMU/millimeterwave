@@ -53,7 +53,8 @@ A millimeterwave application based on onos
     onos>annotate-ports <deviceID> <Port number> <Port state> <key> <value>
     
 ## Find the shortest path with own custmized link weight
-    onos>mmwave-paths <source DeviceId> <destination DeviceId>
+    onos>mmwave-devices-paths <source DeviceId> <destination DeviceId>
+    onos>mmwave-hosts-path <source hostID> <source hostID>
 In our case, the cost depends from the annotation value "probablity of success".  
 total cost = fixed cost + dynamic cost  
 In Ethernet case, total cost = 100 + 1; (ps = 100)  
@@ -63,11 +64,7 @@ In mm-wave case, total cost = 1 + 1/(ps/100);
     onos>mmwave-add-intents <hostId 1> <hostId 2>  
 Add the intent between host1 and host2, the path will be the shortest path which calculated by own cost instead of the default cost by **add-host-intent** command.  
 
-## List mm-wave intents  
-    onos>mmwave-intens  
-It's similar as **intents** command, but in **intents** case, the cost value must be an integer.  Unfortunately, the cost value usually is a double value, so in **mm-wave intents** command I added the support of  double cost value.  
 
-To remove mm-wave intents, simply use **remove-intent** command.  
 
 ## Use JSON files to annotate millimeterwave links and port  
 ### A JSON example  
