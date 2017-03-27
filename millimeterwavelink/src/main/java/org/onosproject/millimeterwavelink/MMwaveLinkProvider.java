@@ -213,9 +213,14 @@ public  class MMwaveLinkProvider extends AbstractProvider
                     }else {
 
                         LinkDescription linkDescription = new DefaultLinkDescription(src, dst, link.type(), annotations);
+                        LinkDescription linkDescription_reverse = new DefaultLinkDescription(dst, src, link.type(), annotations);
+
+
 
 
                         linkProviderService.linkDetected(linkDescription);
+                        linkProviderService.linkDetected(linkDescription_reverse);
+
                     }
                 });
             } catch (ConfigException e) {

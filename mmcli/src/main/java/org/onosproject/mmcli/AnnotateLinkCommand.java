@@ -1,5 +1,6 @@
 package org.onosproject.mmcli;
 
+import org.apache.karaf.shell.commands.Option;
 import org.onosproject.cli.AbstractShellCommand;
 import org.apache.karaf.shell.commands.Argument;
 import org.apache.karaf.shell.commands.Command;
@@ -21,6 +22,9 @@ import org.onosproject.net.provider.ProviderId;
 public class AnnotateLinkCommand extends AbstractShellCommand {
 
 
+    @Option(name = "--both",
+            description = "Add to both direction")
+    private boolean both = false;
     static final ProviderId PID = new ProviderId("cli", "org.onosproject.cli", true);
 
     @Argument(index = 0, name = "srcArg", description = "source connection point",
@@ -56,6 +60,10 @@ public class AnnotateLinkCommand extends AbstractShellCommand {
         try {
             LinkProviderService providerService = registry.register(provider);
             providerService.linkDetected(description(src,dst,key,value));
+            if (both) {
+                providerService.linkDetected(description(dst,src,
+                        key, value));
+            }
         } finally {
             registry.unregister(provider);
         }

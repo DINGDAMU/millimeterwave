@@ -3,13 +3,16 @@ package org.onosproject.mmcli;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
+import javafx.application.HostServices;
 import org.apache.karaf.shell.commands.Argument;
 import org.apache.karaf.shell.commands.Command;
 import org.onosproject.cli.AbstractShellCommand;
 import org.onosproject.cli.net.LinksListCommand;
+import org.onosproject.net.Host;
 import org.onosproject.net.HostId;
 import org.onosproject.net.Link;
 import org.onosproject.net.Path;
+import org.onosproject.net.host.HostService;
 import org.onosproject.net.topology.LinkWeight;
 import org.onosproject.net.topology.PathService;
 import org.onosproject.net.topology.TopologyEdge;
@@ -35,9 +38,11 @@ public class mmWaveHostsPathsCommand extends AbstractShellCommand{
 
 
     protected PathService pathService;
+    protected HostService hostService;
     //In our case we need to use pathService (ElementID is more comfortable than DeviceID in Topology.getPath() case)
     protected void init() {
         pathService = get(PathService.class);
+        hostService = get(HostService.class);
     }
     @Override
     protected void execute() {
@@ -45,11 +50,9 @@ public class mmWaveHostsPathsCommand extends AbstractShellCommand{
         init();
         HostId src = HostId.hostId(srcArg);
         HostId dst = HostId.hostId(dstArg);
-//        if (srcArg.split("/").length != 1 || dstArg.split("/").length != 1) {
-//            print("Error executing command: Connection point not associated with an infrastructure device");
-//            return;
-//        }
-        Set<Path> paths = pathService.getPaths(src, dst, new mmwaveLinkWeight());
+        Host srchost = hostService.getHost(src);
+        Host dsthost = hostService.getHost(dst);
+        Set<Path> paths = pathService.getPaths(srchost.location().deviceId(), dsthost.location().deviceId(), new MMwaveLinkWeight());
         if(paths.isEmpty()){
             print("The path is empty!");
             return;
@@ -96,7 +99,7 @@ public class mmWaveHostsPathsCommand extends AbstractShellCommand{
         return sb.toString();
     }
 
-    class mmwaveLinkWeight implements LinkWeight {
+    class MMwaveLinkWeight implements LinkWeight {
 
         @Override
         public double weight(TopologyEdge edge) {

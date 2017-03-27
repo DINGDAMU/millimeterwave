@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="org.onosproject.mmcli.MMWave.MMWaveIntentCompiler" activate="activate" deactivate="deactivate">
-    <implementation class="org.onosproject.mmcli.MMWave.MMWaveIntentCompiler"/>
-    <property name="service.pid" value="org.onosproject.mmcli.MMWave.MMWaveIntentCompiler"/>
-    <reference name="hostService" interface="org.onosproject.net.host.HostService" cardinality="1..1" policy="static" bind="bindHostService" unbind="unbindHostService"/>
-    <reference name="pathService" interface="org.onosproject.net.topology.PathService" cardinality="1..1" policy="static" bind="bindPathService" unbind="unbindPathService"/>
-    <reference name="intentManager" interface="org.onosproject.net.intent.IntentExtensionService" cardinality="1..1" policy="static" bind="bindIntentManager" unbind="unbindIntentManager"/>
-</scr:component>

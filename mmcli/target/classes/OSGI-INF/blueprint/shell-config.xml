@@ -70,17 +70,7 @@
             </completers>
         </command>
 
-        <command>
-            <action class="org.onosproject.mmcli.AddmmWaveIntentCommand"/>
-            <completers>
-                <ref component-id="hostIdCompleter"/>
-                <ref component-id="hostIdCompleter"/>
-            </completers>
-        </command>
 
-        <command>
-            <action class="org.onosproject.mmcli.ListmmWaveIntentCommand"/>
-        </command>
 
 
     </command-bundle>
