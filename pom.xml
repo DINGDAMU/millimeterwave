@@ -23,8 +23,7 @@
     <modules>
         <module>millimeterwavelink</module>
         <module>millimeterwaveport</module>
-        <module>cli</module>
-        <module>millimeterwaveintent</module>
+        <module>mmcli</module>
     </modules>
     <packaging>pom</packaging>
 
