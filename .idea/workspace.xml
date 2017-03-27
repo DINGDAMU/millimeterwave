@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4452bd1-93bb-415c-9c78-aecec4cf6bdd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/millimeterwavelink-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/millimeterwavelink/target/millimeterwavelink-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/millimeterwavelink-1.0.0-SNAPSHOT.oar" afterPath="$PROJECT_DIR$/millimeterwavelink/target/millimeterwavelink-1.0.0-SNAPSHOT.oar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/oar/m2/org/onosproject/millimeterwave/millimeterwavelink/1.0.0-SNAPSHOT/millimeterwavelink-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/millimeterwavelink/target/oar/m2/org/onosproject/millimeterwave/millimeterwavelink/1.0.0-SNAPSHOT/millimeterwavelink-1.0.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/millimeterwavelink/target/classes/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/surefire-reports/TEST-org.onosproject.millimeterwavelink.MMwaveLinkProviderTest.xml" afterPath="$PROJECT_DIR$/millimeterwavelink/target/surefire-reports/TEST-org.onosproject.millimeterwavelink.MMwaveLinkProviderTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/surefire-reports/org.onosproject.millimeterwavelink.MMwaveLinkProviderTest.txt" afterPath="$PROJECT_DIR$/millimeterwavelink/target/surefire-reports/org.onosproject.millimeterwavelink.MMwaveLinkProviderTest.txt" />
-    </list>
+    <list default="true" id="b4452bd1-93bb-415c-9c78-aecec4cf6bdd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/millimeterwavelink/target/" />
     <ignored path="$PROJECT_DIR$/millimeterwaveport/target/" />
