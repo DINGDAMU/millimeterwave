@@ -47,7 +47,7 @@ public class mmWavePathsDevicesCommand extends AbstractShellCommand {
             print("Expected device IDs as arguments");
             return;
         }
-        Set<Path> paths = pathService.getPaths(src,dst,new mmwaveLinkWeight());
+        Set<Path> paths = pathService.getPaths(src,dst,new MMwaveLinkWeight());
         if(paths.isEmpty()){
             print("The path is empty!");
             return;
@@ -94,16 +94,25 @@ public class mmWavePathsDevicesCommand extends AbstractShellCommand {
         return sb.toString();
     }
 
-    class mmwaveLinkWeight implements LinkWeight {
+    class MMwaveLinkWeight implements LinkWeight {
 
         @Override
         public double weight(TopologyEdge edge) {
 
             //AnnotationKeys
             //This can help us to define cost function by annotations
-            String v = edge.link().annotations().value("ps");
+            String v = edge.link().annotations().value("length");
+
+
             try {
-                return v != null ? 1+(1/(Double.parseDouble(v) /100)): 101;
+
+                if(v != null){
+                    Psuccess psuccess = new Psuccess();
+                    double ps = psuccess.getPs(Double.parseDouble(v));
+                    return 1+1/ps;
+                }else{
+                    return 101;
+                }
                 //total cost = fixed cost + dynamic cost
                 // In Ethernet case, total cost = 100 + 1; (ps = 1)
                 // In mm-wave case, total cost = 1 + 1/ps;

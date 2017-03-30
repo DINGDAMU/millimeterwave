@@ -18,7 +18,6 @@ import org.onosproject.net.topology.PathService;
 import org.onosproject.net.topology.TopologyEdge;
 
 
-import javax.annotation.CheckForNull;
 import java.util.Set;
 
 import static org.onosproject.cli.net.LinksListCommand.compactLinkString;
