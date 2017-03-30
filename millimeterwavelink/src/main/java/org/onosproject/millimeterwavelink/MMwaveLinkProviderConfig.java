@@ -16,7 +16,6 @@ public class MMwaveLinkProviderConfig extends Config<ApplicationId> {
     private static final String LENGTH = "length";
     private static final String CAPACITY = "capacity";
     private static final String TECHNOLOGY = "technology";
-    private static final String PS = "ps";
     private static final String SRC = "src";
     private static final String DST = "dst";
 
@@ -28,11 +27,10 @@ public class MMwaveLinkProviderConfig extends Config<ApplicationId> {
             for (JsonNode node : array) {
                 String src = node.path(SRC).asText();
                 String dst = node.path(DST).asText();
-                long length = node.path(LENGTH).asLong();
-                long capacity = node.path(CAPACITY).asLong();
+                String length = node.path(LENGTH).asText();
+                String capacity = node.path(CAPACITY).asText();
                 String technology = node.path(TECHNOLOGY).asText();
-                String ps = node.path(PS).asText();
-                linkAttributes.add(new LinkAttributes(length,capacity,technology,ps, src, dst));
+                linkAttributes.add(new LinkAttributes(length,capacity,technology,src, dst));
 
 
             }
@@ -45,39 +43,33 @@ public class MMwaveLinkProviderConfig extends Config<ApplicationId> {
 
 
     public class LinkAttributes {
-        private final long length;
-        private final long capacity;
+        private final String length;
+        private final String capacity;
         private final String technology;
-        private final String ps;
         private final String src;
         private final String dst;
 
 
-        public LinkAttributes(long length, long capacity,String technology,String ps,String src, String dst) {
+        public LinkAttributes(String length, String capacity,String technology,String src, String dst) {
             this.length = length;
             this.capacity = capacity;
             this.technology = technology;
-            this.ps = ps;
             this.src = src;
             this.dst = dst;
 
         }
 
 
-        public long getLength() {
+        public String getLength() {
             return length;
         }
 
-        public long getCapacity(){
+        public String getCapacity(){
             return capacity;
         }
 
         public String getTechnology() {
             return technology;
-        }
-
-        public String getPs() {
-            return ps;
         }
 
         public String getSrc() {

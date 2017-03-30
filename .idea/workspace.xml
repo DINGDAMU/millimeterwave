@@ -1,7 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4452bd1-93bb-415c-9c78-aecec4cf6bdd" name="Default" comment="" />
+    <list default="true" id="b4452bd1-93bb-415c-9c78-aecec4cf6bdd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_0_40_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_0_40_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_0_40_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_0_40_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_0_40_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_0_40_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_karaf_features_org_apache_karaf_features_core_3_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_karaf_system_org_apache_karaf_system_core_3_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b34.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b34.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b34.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b34.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_22_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_onlab_misc_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_onlab_osgi_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_onlab_rest_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_onos_api_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_onos_api_tests_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_onos_cli_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_onos_core_common_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_onos_core_dist_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_onos_core_serializers_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_onos_incubator_api_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_onos_incubator_net_1_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_onosproject_onos_incubator_store_1_8_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/classes/org/onosproject/millimeterwavelink/MMwaveLinkProvider$1.class" afterPath="$PROJECT_DIR$/millimeterwavelink/target/classes/org/onosproject/millimeterwavelink/MMwaveLinkProvider$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/classes/org/onosproject/millimeterwavelink/MMwaveLinkProvider$InternalLinkListener.class" afterPath="$PROJECT_DIR$/millimeterwavelink/target/classes/org/onosproject/millimeterwavelink/MMwaveLinkProvider$InternalLinkListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/classes/org/onosproject/millimeterwavelink/MMwaveLinkProvider$InternalNetworkConfigListener.class" afterPath="$PROJECT_DIR$/millimeterwavelink/target/classes/org/onosproject/millimeterwavelink/MMwaveLinkProvider$InternalNetworkConfigListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/classes/org/onosproject/millimeterwavelink/MMwaveLinkProvider.class" afterPath="$PROJECT_DIR$/millimeterwavelink/target/classes/org/onosproject/millimeterwavelink/MMwaveLinkProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/classes/org/onosproject/millimeterwavelink/MMwaveLinkProviderConfig$LinkAttributes.class" afterPath="$PROJECT_DIR$/millimeterwavelink/target/classes/org/onosproject/millimeterwavelink/MMwaveLinkProviderConfig$LinkAttributes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/classes/org/onosproject/millimeterwavelink/MMwaveLinkProviderConfig.class" afterPath="$PROJECT_DIR$/millimeterwavelink/target/classes/org/onosproject/millimeterwavelink/MMwaveLinkProviderConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/millimeterwavelink-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/millimeterwavelink/target/millimeterwavelink-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/millimeterwavelink-1.0.0-SNAPSHOT.oar" afterPath="$PROJECT_DIR$/millimeterwavelink/target/millimeterwavelink-1.0.0-SNAPSHOT.oar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/oar/m2/org/onosproject/millimeterwave/millimeterwavelink/1.0.0-SNAPSHOT/millimeterwavelink-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/millimeterwavelink/target/oar/m2/org/onosproject/millimeterwave/millimeterwavelink/1.0.0-SNAPSHOT/millimeterwavelink-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwaveport/target/classes/org/onosproject/millimeterwaveport/MMwavePortProvider.class" afterPath="$PROJECT_DIR$/millimeterwaveport/target/classes/org/onosproject/millimeterwaveport/MMwavePortProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwaveport/target/millimeterwaveport-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/millimeterwaveport/target/millimeterwaveport-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwaveport/target/millimeterwaveport-1.0.0-SNAPSHOT.oar" afterPath="$PROJECT_DIR$/millimeterwaveport/target/millimeterwaveport-1.0.0-SNAPSHOT.oar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwaveport/target/oar/m2/org/onosproject/millimeterwave/millimeterwaveport/1.0.0-SNAPSHOT/millimeterwaveport-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/millimeterwaveport/target/oar/m2/org/onosproject/millimeterwave/millimeterwaveport/1.0.0-SNAPSHOT/millimeterwaveport-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmcli/target/classes/org/onosproject/mmcli/mmWaveHostsPathsCommand$mmwaveLinkWeight.class" afterPath="$PROJECT_DIR$/mmcli/target/classes/org/onosproject/mmcli/mmWaveHostsPathsCommand$mmwaveLinkWeight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmcli/target/classes/org/onosproject/mmcli/mmWaveHostsPathsCommand.class" afterPath="$PROJECT_DIR$/mmcli/target/classes/org/onosproject/mmcli/mmWaveHostsPathsCommand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmcli/target/classes/org/onosproject/mmcli/mmWavePathsDevicesCommand$mmwaveLinkWeight.class" afterPath="$PROJECT_DIR$/mmcli/target/classes/org/onosproject/mmcli/mmWavePathsDevicesCommand$mmwaveLinkWeight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmcli/target/mmcli-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/mmcli/target/mmcli-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmcli/target/mmcli-1.0.0-SNAPSHOT.oar" afterPath="$PROJECT_DIR$/mmcli/target/mmcli-1.0.0-SNAPSHOT.oar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmcli/target/oar/m2/org/onosproject/millimeterwave/mmcli/1.0.0-SNAPSHOT/mmcli-1.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/mmcli/target/oar/m2/org/onosproject/millimeterwave/mmcli/1.0.0-SNAPSHOT/mmcli-1.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwave.iml" afterPath="$PROJECT_DIR$/millimeterwave.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/millimeterwavelink.iml" afterPath="$PROJECT_DIR$/millimeterwavelink/millimeterwavelink.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/pom.xml" afterPath="$PROJECT_DIR$/millimeterwavelink/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProvider.java" afterPath="$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProviderConfig.java" afterPath="$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProviderConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/millimeterwavelink/target/classes/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/surefire-reports/TEST-org.onosproject.millimeterwavelink.MMwaveLinkProviderTest.xml" afterPath="$PROJECT_DIR$/millimeterwavelink/target/surefire-reports/TEST-org.onosproject.millimeterwavelink.MMwaveLinkProviderTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwavelink/target/surefire-reports/org.onosproject.millimeterwavelink.MMwaveLinkProviderTest.txt" afterPath="$PROJECT_DIR$/millimeterwavelink/target/surefire-reports/org.onosproject.millimeterwavelink.MMwaveLinkProviderTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwaveport/millimeterwaveport.iml" afterPath="$PROJECT_DIR$/millimeterwaveport/millimeterwaveport.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwaveport/pom.xml" afterPath="$PROJECT_DIR$/millimeterwaveport/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwaveport/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/millimeterwaveport/target/classes/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwaveport/target/surefire-reports/TEST-org.onosproject.millimeterwaveport.MMwavePortProviderTest.xml" afterPath="$PROJECT_DIR$/millimeterwaveport/target/surefire-reports/TEST-org.onosproject.millimeterwaveport.MMwavePortProviderTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/millimeterwaveport/target/surefire-reports/org.onosproject.millimeterwaveport.MMwavePortProviderTest.txt" afterPath="$PROJECT_DIR$/millimeterwaveport/target/surefire-reports/org.onosproject.millimeterwaveport.MMwavePortProviderTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmcli/mmcli.iml" afterPath="$PROJECT_DIR$/mmcli/mmcli.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmcli/pom.xml" afterPath="$PROJECT_DIR$/mmcli/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/mmWaveHostsPathsCommand.java" afterPath="$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/mmWaveHostsPathsCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mmcli/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/mmcli/target/classes/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/millimeterwavelink/target/" />
     <ignored path="$PROJECT_DIR$/millimeterwaveport/target/" />
@@ -22,31 +97,85 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shell-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mmcli/src/main/resources/OSGI-INF/blueprint/shell-config.xml">
+      <file leaf-file-name="mmWaveHostsPathsCommand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/mmWaveHostsPathsCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="766">
+              <caret line="126" column="25" lean-forward="true" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mmWavePathsDevicesCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/mmWavePathsDevicesCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-901">
+              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MMwaveLinkProvider.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DefaultTopologyEdge.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.9.0/onos-api-1.9.0.jar!/org/onosproject/net/topology/DefaultTopologyEdge.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#712#713#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Psuccess.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/Psuccess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MMwaveLinkProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="223" column="21" lean-forward="true" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
+            <state relative-caret-position="152">
+              <caret line="196" column="68" lean-forward="false" selection-start-line="196" selection-start-column="68" selection-end-line="196" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnnotateLinkCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/AnnotateLinkCommand.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/millimeterwaveport/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="82" column="46" lean-forward="false" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+            <state relative-caret-position="330">
+              <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/millimeterwavelink/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="109" column="32" lean-forward="false" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -80,15 +209,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/millimeterwavelink/src/main/resources/OSGI-INF/blueprint/shell-config.xml" />
-        <option value="$PROJECT_DIR$/millimeterwavelink/pom.xml" />
-        <option value="$PROJECT_DIR$/millimeterwaveport/pom.xml" />
         <option value="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmwavecli/AnnotatePortCommand.java" />
         <option value="$PROJECT_DIR$/cli/src/main/resources/blueprint/shell-config.xml" />
         <option value="$PROJECT_DIR$/cli/pom.xml" />
         <option value="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/mmcli.java" />
         <option value="$PROJECT_DIR$/millimeterwaveport/src/main/java/org/onosproject/millimeterwaveport/MMwavePortProviderConfig.java" />
         <option value="$PROJECT_DIR$/millimeterwaveport/src/main/java/org/onosproject/millimeterwaveport/MMwavePortProvider.java" />
-        <option value="$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProviderConfig.java" />
         <option value="$PROJECT_DIR$/millimeterwaveweight/pom.xml" />
         <option value="$PROJECT_DIR$/millimeterwaveweight/src/main/java/org/onosproject/millimeterwaveweight/MMwaveWeight.java" />
         <option value="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/mmwaveLinkWeight.java" />
@@ -113,10 +239,15 @@
         <option value="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/MMWave/MMWaveIntent.java" />
         <option value="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/AddmmWaveIntentCommand.java" />
         <option value="$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/MMWave/MMWaveIntentCompiler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/mmWaveHostsPathsCommand.java" />
         <option value="$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/AnnotateLinkCommand.java" />
+        <option value="$PROJECT_DIR$/millimeterwaveport/pom.xml" />
+        <option value="$PROJECT_DIR$/millimeterwavelink/pom.xml" />
+        <option value="$PROJECT_DIR$/mmcli/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/Psuccess.java" />
         <option value="$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProvider.java" />
+        <option value="$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProviderConfig.java" />
+        <option value="$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/mmWaveHostsPathsCommand.java" />
       </list>
     </option>
   </component>
@@ -150,8 +281,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -386,6 +515,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -674,23 +805,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30408162" sideWeight="0.504884" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30408162" sideWeight="0.502442" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31428573" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30408162" sideWeight="0.495116" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30306122" sideWeight="0.497558" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2728938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2759463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -698,35 +829,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gerrit" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30408162" sideWeight="0.502442" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30408162" sideWeight="0.497558" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26984128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -741,8 +850,32 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProvider.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/mmWaveHostsPathsCommand.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProvider.java</url>
+          <line>211</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProvider.java</url>
+          <line>212</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -751,77 +884,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProviderConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/millimeterwavelink/src/main/resources/OSGI-INF/blueprint/shell-config.xml" />
-    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/AnnotateDeviceCommand.java" />
-    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/cli/AnnotateLinkCommand.java" />
-    <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/mmcli.java" />
-    <entry file="file://$USER_HOME$/cfg.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/millimeterwaveport/src/main/java/org/onosproject/millimeterwaveport/MMwavePortProviderConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding>
-            <element signature="e#1924#1925#0" expanded="false" />
-            <element signature="e#1965#1966#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/millimeterwaveport/src/main/java/org/onosproject/millimeterwaveport/MMwavePortProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1792">
-          <caret line="186" column="37" lean-forward="false" selection-start-line="186" selection-start-column="37" selection-end-line="186" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.8.0/onos-api-1.8.0.jar!/org/onosproject/net/topology/PathService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onlab-misc/1.8.0/onlab-misc-1.8.0.jar!/org/onlab/graph/EdgeWeight.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.8.0/onos-api-1.8.0.jar!/org/onosproject/net/NetworkResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.8.0/onos-api-1.8.0.jar!/org/onosproject/net/ElementId.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/javafx-src.zip!/com/sun/javafx/geom/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-574">
@@ -840,20 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.8.0/onos-api-1.8.0.jar!/org/onosproject/net/topology/LinkWeight.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/millimeterwaveport/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="31" column="17" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="31" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -877,21 +925,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/millimeterwaveIntent/src/main/java/org/onosproject/millimeterwaveweight/mmwaveLinkWeight.java" />
     <entry file="file://$PROJECT_DIR$/millimeterwaveIntent/src/main/java/org/onosproject/millimeterwaveweight/MMwaveWeight.java" />
-    <entry file="file://$PROJECT_DIR$/millimeterwavelink/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="31" column="17" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="31" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/AnnotateLinkCommand.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.8.0/onos-api-1.8.0.jar!/org/onosproject/net/HostId.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -921,33 +954,9 @@
     <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/MMWave/MMWaveIntentCompiler.java" />
     <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/ListmmWaveIntentCommand.java" />
     <entry file="file://$PROJECT_DIR$/cli/src/main/java/org/onosproject/mmcli/AddmmWaveIntentCommand.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProviderConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/mmWaveHostsPathsCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="111" column="56" lean-forward="false" selection-start-line="111" selection-start-column="56" selection-end-line="111" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mmcli/src/main/resources/OSGI-INF/blueprint/shell-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
@@ -955,17 +964,188 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/AnnotateLinkCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="82" column="46" lean-forward="false" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+        <state relative-caret-position="720">
+          <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3214#3215#0" expanded="false" />
+            <element signature="e#3248#3249#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.8.0/onos-api-1.8.0.jar!/org/onosproject/net/topology/LinkWeight.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.8.0/onos-api-1.8.0.jar!/org/onosproject/net/topology/PathService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/millimeterwaveport/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/millimeterwavelink/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onlab-misc/1.9.0/onlab-misc-1.9.0.jar!/org/onlab/graph/ScalarWeight.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmcli/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/millimeterwaveport/src/main/java/org/onosproject/millimeterwaveport/MMwavePortProviderConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+          <folding>
+            <element signature="e#1924#1925#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/millimeterwaveport/src/main/java/org/onosproject/millimeterwaveport/MMwavePortProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="186" column="37" lean-forward="false" selection-start-line="186" selection-start-column="37" selection-end-line="186" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="109" column="32" lean-forward="false" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProviderConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="e#2068#2069#0" expanded="true" />
+            <element signature="e#2105#2106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.9.0/onos-api-1.9.0.jar!/org/onosproject/net/Annotations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.9.0/onos-api-1.9.0.jar!/org/onosproject/net/topology/TopologyEdge.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.9.0/onos-api-1.9.0.jar!/org/onosproject/net/Annotated.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/Psuccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/millimeterwavelink/src/main/java/org/onosproject/millimeterwavelink/MMwaveLinkProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="223" column="21" lean-forward="true" selection-start-line="223" selection-start-column="21" selection-end-line="223" selection-end-column="21" />
+        <state relative-caret-position="152">
+          <caret line="196" column="68" lean-forward="false" selection-start-line="196" selection-start-column="68" selection-end-line="196" selection-end-column="68" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.9.0/onos-api-1.9.0.jar!/org/onosproject/net/topology/PathService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/onosproject/onos-api/1.9.0/onos-api-1.9.0.jar!/org/onosproject/net/topology/DefaultTopologyEdge.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/karaf/shell/org.apache.karaf.shell.console/3.0.5/org.apache.karaf.shell.console-3.0.5.jar!/org/apache/karaf/shell/commands/basic/AbstractCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/mmWavePathsDevicesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-901">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmcli/src/main/java/org/onosproject/mmcli/mmWaveHostsPathsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="126" column="25" lean-forward="true" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

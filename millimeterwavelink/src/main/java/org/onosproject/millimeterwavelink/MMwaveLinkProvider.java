@@ -73,7 +73,6 @@ public  class MMwaveLinkProvider extends AbstractProvider
     private static final String LENGTH = "length";
     private static final String CAPACITY = "capacity";
     private static final String TECHNOLOGY = "technology";
-    private  static final String PS = "ps";
 
 
     private final ExecutorService executor =
@@ -173,17 +172,16 @@ public  class MMwaveLinkProvider extends AbstractProvider
                 cfg.getLinkAttibutes().forEach(linkAttributes -> {
 
                     //configuration objects
-                    long length = linkAttributes.getLength();
+                    String length = linkAttributes.getLength();
                     Preconditions.checkNotNull(length, "The link length is null!");
 
-                    long capacity = linkAttributes.getCapacity();
+                    String capacity = linkAttributes.getCapacity();
                     Preconditions.checkNotNull(capacity, "The link capacity is null!");
 
                     String technology = linkAttributes.getTechnology();
                     Preconditions.checkNotNull(technology, "The technology is null!");
 
-                    String ps = linkAttributes.getPs();
-                    Preconditions.checkNotNull(ps, "The technology is null!");
+
 
                     String srcArg = linkAttributes.getSrc();
                     Preconditions.checkNotNull(srcArg, "The source connect_point is null!");
@@ -198,7 +196,6 @@ public  class MMwaveLinkProvider extends AbstractProvider
                             .set(LENGTH, String.valueOf(length))
                             .set(CAPACITY, String.valueOf(capacity))
                             .set(TECHNOLOGY, String.valueOf(technology))
-                            .set(PS, String.valueOf(ps))
                             .build();
 
                     Link link = linkService.getLink(src, dst);
@@ -243,12 +240,7 @@ public  class MMwaveLinkProvider extends AbstractProvider
                 executor.execute(MMwaveLinkProvider.this::connectComponents);
 
 
-            } else if ((linkEvent.type() == LinkEvent.Type.LINK_REMOVED)) {
-                log.debug("removing links {}", linkEvent.subject().src(), linkEvent.subject().dst());
-                linkService.getLink(linkEvent.subject().src(), linkEvent.subject().dst()).annotations().keys();
-
-
-            }
+         }
         }
 
 

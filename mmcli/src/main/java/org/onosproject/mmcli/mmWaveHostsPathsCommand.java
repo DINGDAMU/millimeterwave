@@ -3,7 +3,7 @@ package org.onosproject.mmcli;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
-import javafx.application.HostServices;
+import com.google.common.base.Preconditions;
 import org.apache.karaf.shell.commands.Argument;
 import org.apache.karaf.shell.commands.Command;
 import org.onosproject.cli.AbstractShellCommand;
@@ -17,6 +17,8 @@ import org.onosproject.net.topology.LinkWeight;
 import org.onosproject.net.topology.PathService;
 import org.onosproject.net.topology.TopologyEdge;
 
+
+import javax.annotation.CheckForNull;
 import java.util.Set;
 
 import static org.onosproject.cli.net.LinksListCommand.compactLinkString;
@@ -106,9 +108,18 @@ public class mmWaveHostsPathsCommand extends AbstractShellCommand{
 
             //AnnotationKeys
             //This can help us to define cost function by annotations
-            String v = edge.link().annotations().value("ps");
+            String v = edge.link().annotations().value("length");
+
+
             try {
-                return v != null ? 1+(1/(Double.parseDouble(v) /100)): 101;
+
+                if(v != null){
+                    Psuccess psuccess = new Psuccess();
+                    double ps = psuccess.getPs(Double.parseDouble(v));
+                    return 1+1/ps;
+                }else{
+                    return 101;
+                }
                 //total cost = fixed cost + dynamic cost
                 // In Ethernet case, total cost = 100 + 1; (ps = 1)
                 // In mm-wave case, total cost = 1 + 1/ps;
