@@ -17,15 +17,9 @@ A millimeterwave application based on onos
     git clone https://github.com/DINGDAMU/millimeterwave-onos-app.git
     cd millimeterwave-onos-app
     mvn clean install
-    cd cli
-    mvn clean install
-    onos-app localhost reinstall! target/*.oar
-    cd ../millimeterwavelink
-    mvn clean install 
-    onos-app localhost reinstall! target/*.oar
-    cd ../millimeterwaveport
-    mvn clean install 
-    onos-app localhost reinstall! target/*.oar
+    onos-app localhost reinstall! cli/target/*.oar
+    onos-app localhost reinstall! millimeterwavelink/target/*.oar
+    onos-app localhost reinstall! millimeterwaveport/target/*.oar
 
     
  

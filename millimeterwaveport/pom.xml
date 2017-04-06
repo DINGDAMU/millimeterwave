@@ -20,7 +20,7 @@
         <onos.app.name>org.onosproject.millimeterwaveport</onos.app.name>
         <onos.app.origin>CREATE-NET</onos.app.origin>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <onos.version>1.9.0</onos.version>
+        <onos.version>1.10.0-SNAPSHOT</onos.version>
         <!-- Uncomment to generate ONOS app from this module.
         <onos.app.name>org.foo.app</onos.app.name>
         <onos.app.title>Foo App</onos.app.title>
