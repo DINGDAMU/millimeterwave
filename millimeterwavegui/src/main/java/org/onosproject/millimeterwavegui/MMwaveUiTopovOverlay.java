@@ -16,12 +16,19 @@
 package org.onosproject.millimeterwavegui;
 
 import org.onosproject.net.DeviceId;
+import org.onosproject.net.Link;
+import org.onosproject.net.link.LinkService;
 import org.onosproject.ui.UiTopoOverlay;
 import org.onosproject.ui.topo.ButtonId;
 import org.onosproject.ui.topo.PropertyPanel;
 import org.onosproject.ui.topo.TopoConstants.CoreButtons;
 import org.onosproject.ui.GlyphConstants;
 
+
+import java.util.HashSet;
+import java.util.Set;
+
+import static org.onosproject.cli.AbstractShellCommand.get;
 import static org.onosproject.ui.topo.TopoConstants.Properties.FLOWS;
 import static org.onosproject.ui.topo.TopoConstants.Properties.INTENTS;
 import static org.onosproject.ui.topo.TopoConstants.Properties.LATITUDE;
@@ -38,12 +45,21 @@ public class MMwaveUiTopovOverlay extends UiTopoOverlay {
     // NOTE: this must match the ID defined in mmwaveTopov.js
     private static final String OVERLAY_ID = "mm-wave overlay";
 
-    private static final String MY_TITLE = "Millimeterwave application";
-    private static final String MY_VERSION = "1.10.0-SNAPSHOT";
-    private static final String MY_DEVICE_TITLE = "I changed the title";
+    private static final String MY_TITLE = "Millimeter wave app";
+    private static final String MMWAVE_LINKS = "MM-wave links";
+    private static final String ETHERNET_LINKS = "Ethernet links";
+
+
+    private LinkService linkService;
+
 
     private static final ButtonId FOO_BUTTON = new ButtonId("foo");
     private static final ButtonId BAR_BUTTON = new ButtonId("bar");
+
+    int mmwavelinknum ;
+    int ethernetlinknum;
+
+
 
     public MMwaveUiTopovOverlay() {
         super(OVERLAY_ID);
@@ -52,6 +68,19 @@ public class MMwaveUiTopovOverlay extends UiTopoOverlay {
 
     @Override
     public void modifySummary(PropertyPanel pp) {
+        linkService = get(LinkService.class);
+        Set<Link> links = new HashSet<>();
+            for (Link link : linkService.getActiveLinks()) {
+                links.add(link);
+            }
+            ethernetlinknum = links.size();
+            mmwavelinknum = 0;
+        for (Link link : links) {
+            if(link.annotations().value("length")!=null) {
+                mmwavelinknum++;
+                ethernetlinknum--;
+            }
+            }
         pp.title(MY_TITLE)
                 .typeId(GlyphConstants.CROWN)
                 .removeProps(
@@ -61,12 +90,12 @@ public class MMwaveUiTopovOverlay extends UiTopoOverlay {
                         FLOWS,
                         VERSION
                 )
-                .addProp(VERSION, MY_VERSION);
+                .addProp(MMWAVE_LINKS, mmwavelinknum)
+                .addProp(ETHERNET_LINKS, ethernetlinknum);
     }
 
     @Override
     public void modifyDeviceDetails(PropertyPanel pp, DeviceId deviceId) {
-       // pp.title(MY_DEVICE_TITLE);
         pp.removeProps(LATITUDE, LONGITUDE);
 
         pp.addButton(FOO_BUTTON)
@@ -76,5 +105,13 @@ public class MMwaveUiTopovOverlay extends UiTopoOverlay {
                 .removeButtons(CoreButtons.SHOW_GROUP_VIEW)
                 .removeButtons(CoreButtons.SHOW_METER_VIEW);
     }
+
+
+
+
+
+
+
+
 
 }

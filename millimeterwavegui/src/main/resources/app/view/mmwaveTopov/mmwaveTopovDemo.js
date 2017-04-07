@@ -23,7 +23,7 @@
     'use strict';
 
     // injected refs
-    var $log, fs, flash, wss, api;
+    var $log, fs, flash, wss, api, linkData, des, linkPanel,panel,ls,gs;
 
     // constants
     var displayStart = 'mmwaveTopovDisplayStart',
@@ -34,6 +34,9 @@
     // internal state
     var trafficMode = null,
         hoverMode = null;
+
+
+
 
     // === -------------------------------------
     // ----------------
@@ -127,6 +130,8 @@
         wss.sendEvent(displayStop);
     }
 
+
+
     // === ---------------------------
     // === Main API functions
 
@@ -137,13 +142,14 @@
 
     function updateDisplay() {
             sendDisplayUpdate();
-
     }
 
     function stopDisplay() {
         sendDisplayStop();
         flash.flash('Canceling display mm-wave links');
     }
+
+
 
     // === ---------------------------
     // === Module Factory Definition
@@ -157,6 +163,8 @@
             fs = _fs_;
             flash = _flash_;
             wss = _wss_;
+
+
 
             return {
 
@@ -173,7 +181,7 @@
 
                 startDisplay: startDisplay,
                 updateDisplay: updateDisplay,
-                stopDisplay: stopDisplay
+                stopDisplay: stopDisplay,
             };
         }]);
 }());

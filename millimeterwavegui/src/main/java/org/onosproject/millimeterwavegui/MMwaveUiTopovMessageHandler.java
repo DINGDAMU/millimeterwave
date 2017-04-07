@@ -30,19 +30,21 @@ import org.onosproject.net.link.LinkService;
 import org.onosproject.ui.RequestHandler;
 import org.onosproject.ui.UiConnection;
 import org.onosproject.ui.UiMessageHandler;
+import org.onosproject.ui.topo.TopoJson;
 import org.onosproject.ui.topo.DeviceHighlight;
 import org.onosproject.ui.topo.Highlights;
 import org.onosproject.ui.topo.NodeBadge;
 import org.onosproject.ui.topo.NodeBadge.Status;
-import org.onosproject.ui.topo.TopoJson;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Collection;
-import java.util.HashSet;
 import java.util.Set;
+import java.util.Collection;
 import java.util.Timer;
 import java.util.TimerTask;
+import java.util.HashSet;
+
+
 
 /**
  * Skeletal ONOS UI Topology-Overlay message handler.
@@ -53,8 +55,11 @@ public class MMwaveUiTopovMessageHandler extends UiMessageHandler {
     private static final String MMWAVE_TOPOV_DISPLAY_UPDATE = "mmwaveTopovDisplayUpdate";
     private static final String MMWAVE_TOPOV_DISPLAY_STOP = "mmwaveTopovDisplayStop";
 
+
+
+
+
     private static final String ID = "id";
-    private static final String MODE = "mode";
 
     private static final long UPDATE_PERIOD_MS = 1000;
 
@@ -73,11 +78,12 @@ public class MMwaveUiTopovMessageHandler extends UiMessageHandler {
     private Mode currentMode = Mode.IDLE;
     private Element elementOfNote;
     private Link[] linkSet = EMPTY_LINK_SET;
-    private int linkIndex;
+
+
+
 
 
     // ===============-=-=-=-=-=-======================-=-=-=-=-=-=-================================
-
 
     @Override
     public void init(UiConnection connection, ServiceDirectory directory) {
@@ -148,6 +154,9 @@ public class MMwaveUiTopovMessageHandler extends UiMessageHandler {
         }
     }
 
+
+
+
     // === ------------
 
     private void clearState() {
@@ -202,6 +211,10 @@ public class MMwaveUiTopovMessageHandler extends UiMessageHandler {
     }
 
 
+
+
+
+
     private void sendMouseData() {
         if (elementOfNote != null && elementOfNote instanceof Device) {
             DeviceId devId = (DeviceId) elementOfNote.id();
@@ -250,11 +263,11 @@ public class MMwaveUiTopovMessageHandler extends UiMessageHandler {
             links.add(link);
         }
         linkSet = links.toArray(new Link[links.size()]);
-        linkIndex = 0;
         log.debug("initialized link set to {}", linkSet.length);
     }
 
     private void sendLinkData() {
+
         MMwaveDemoLinkMap linkMap = new MMwaveDemoLinkMap();
         for (Link link : linkSet) {
             if(link.annotations().value("length")!=null) {
@@ -270,6 +283,7 @@ public class MMwaveUiTopovMessageHandler extends UiMessageHandler {
 
         sendHighlights(highlights);
     }
+
 
     private synchronized void scheduleTask() {
         if (demoTask == null) {
@@ -304,4 +318,6 @@ public class MMwaveUiTopovMessageHandler extends UiMessageHandler {
         }
     }
 
-}
+
+    }
+

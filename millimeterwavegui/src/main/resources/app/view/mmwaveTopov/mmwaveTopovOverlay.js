@@ -20,6 +20,9 @@
         '2V81.6z';
 
 
+
+
+
     // our overlay definition
     var overlay = {
         // NOTE: this must match the ID defined in AppUiTopovOverlay
@@ -42,7 +45,6 @@
             $log.debug("MM-wave topology overlay ACTIVATED");
         },
         deactivate: function () {
-            mtds.stopDisplay();
             $log.debug("MM-wave topology overlay DEACTIVATED");
         },
 

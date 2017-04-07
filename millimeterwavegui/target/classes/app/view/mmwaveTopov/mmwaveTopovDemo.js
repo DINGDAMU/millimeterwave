@@ -23,17 +23,21 @@
     'use strict';
 
     // injected refs
-    var $log, fs, flash, wss, api;
+    var $log, fs, flash, wss, api, linkData, des, linkPanel,panel,ls,gs;
 
     // constants
     var displayStart = 'mmwaveTopovDisplayStart',
         displayUpdate = 'mmwaveTopovDisplayUpdate',
-        displayStop = 'mmwaveTopovDisplayStop';
+        displayStop = 'mmwaveTopovDisplayStop',
+        updatelinkannotations = 'updateLinkAnnotations';
 
 
     // internal state
     var trafficMode = null,
         hoverMode = null;
+
+
+
 
     // === -------------------------------------
     // ----------------
@@ -127,6 +131,13 @@
         wss.sendEvent(displayStop);
     }
 
+    function updateAnnotations(data) {
+        wss.sendEvent(updatelinkannotations,{
+            src: data.get('source'),
+            dst: data.get('target')
+        });
+    }
+
     // === ---------------------------
     // === Main API functions
 
@@ -137,12 +148,16 @@
 
     function updateDisplay() {
             sendDisplayUpdate();
-
     }
 
     function stopDisplay() {
         sendDisplayStop();
         flash.flash('Canceling display mm-wave links');
+    }
+
+    function updateLinkAnnotations(){
+        updateAnnotations();
+        flash.flash('you go girls,gee');
     }
 
     // === ---------------------------
@@ -157,6 +172,8 @@
             fs = _fs_;
             flash = _flash_;
             wss = _wss_;
+
+
 
             return {
 
@@ -173,7 +190,8 @@
 
                 startDisplay: startDisplay,
                 updateDisplay: updateDisplay,
-                stopDisplay: stopDisplay
+                stopDisplay: stopDisplay,
+                updateLinkAnnotations:updateLinkAnnotations
             };
         }]);
 }());
