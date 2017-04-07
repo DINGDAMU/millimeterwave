@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1491190110774
+Bnd-LastModified: 1491488860608
 Build-Jdk: 1.8.0_51
 Built-By: dingdamu
 Bundle-Blueprint: OSGI-INF/blueprint/shell-config.xml
@@ -11,20 +11,21 @@ Bundle-SymbolicName: org.onosproject.millimeterwave.mmcli
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
 Export-Package: org.onosproject.mmcli;uses:="com.fasterxml.jackson.datab
- ind,org.apache.karaf.shell.commands,org.onosproject.cli,org.onosproject
- .net,org.onosproject.net.device,org.onosproject.net.host,org.onosprojec
- t.net.link,org.onosproject.net.topology";version="1.0.0"
+ ind,org.apache.karaf.shell.commands,org.onlab.graph,org.onosproject.cli
+ ,org.onosproject.net,org.onosproject.net.device,org.onosproject.net.hos
+ t,org.onosproject.net.link,org.onosproject.net.topology";version="1.0.0
+ "
 Import-Package: com.fasterxml.jackson.databind;version="[2.8,3)",com.fas
  terxml.jackson.databind.node;version="[2.8,3)",com.google.common.collec
  t;version="[19.0,20)",org.apache.commons.math3.special;version="[3.5,4)
- ",org.apache.karaf.shell.commands;version="[3.0,4)",org.onlab.packet;ve
- rsion="[1.9,2)",org.onosproject.cli;version="[1.9,2)",org.onosproject.c
- li.net;version="[1.9,2)",org.onosproject.net;version="[1.9,2)",org.onos
- project.net.behaviour;version="[1.9,2)",org.onosproject.net.device;vers
- ion="[1.9,2)",org.onosproject.net.driver;version="[1.9,2)",org.onosproj
- ect.net.host;version="[1.9,2)",org.onosproject.net.link;version="[1.9,2
- )",org.onosproject.net.provider;version="[1.9,2)",org.onosproject.net.t
- opology;version="[1.9,2)",org.osgi.service.blueprint;version="[1.0.0,2.
- 0.0)",org.slf4j;version="[1.7,2)"
+ ",org.apache.karaf.shell.commands;version="[3.0,4)",org.onlab.graph;ver
+ sion="[1.9,2)",org.onlab.packet;version="[1.9,2)",org.onosproject.cli;v
+ ersion="[1.9,2)",org.onosproject.cli.net;version="[1.9,2)",org.onosproj
+ ect.net;version="[1.9,2)",org.onosproject.net.behaviour;version="[1.9,2
+ )",org.onosproject.net.device;version="[1.9,2)",org.onosproject.net.dri
+ ver;version="[1.9,2)",org.onosproject.net.host;version="[1.9,2)",org.on
+ osproject.net.link;version="[1.9,2)",org.onosproject.net.provider;versi
+ on="[1.9,2)",org.onosproject.net.topology;version="[1.9,2)",org.osgi.se
+ rvice.blueprint;version="[1.0.0,2.0.0)",org.slf4j;version="[1.7,2)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-3.0.0.201509101326

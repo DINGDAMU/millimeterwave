@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1491571301826
+Build-Jdk: 1.8.0_51
+Built-By: dingdamu
+Bundle-Description: An ONOS application for web gui on mm-wave links
+Bundle-ManifestVersion: 2
+Bundle-Name: onos-app-mmwave-gui
+Bundle-SymbolicName: org.onosproject.millimeterwave.onos-app-mmwave-gui
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.onosproject.millimeterwavegui;uses:="org.onlab.osgi,
+ org.onosproject.net,org.onosproject.ui,org.onosproject.ui.topo";version
+ ="1.0.0"
+Import-Package: com.fasterxml.jackson.databind.node;version="[2.8,3)",co
+ m.google.common.base;version="[19.0,20)",com.google.common.collect;vers
+ ion="[19.0,20)",org.onlab.osgi;version="[1.9,2)",org.onosproject.net;ve
+ rsion="[1.9,2)",org.onosproject.net.device;version="[1.9,2)",org.onospr
+ oject.net.host;version="[1.9,2)",org.onosproject.net.link;version="[1.9
+ ,2)",org.onosproject.ui;version="[1.9,2)",org.onosproject.ui.topo;versi
+ on="[1.9,2)",org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/org.onosproject.millimeterwavegui.MMwaveUiTo
+ povComponent.xml
+Tool: Bnd-3.0.0.201509101326

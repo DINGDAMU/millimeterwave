@@ -23,8 +23,8 @@
         <module>millimeterwavelink</module>
         <module>millimeterwaveport</module>
         <module>mmcli</module>
-    <module>mmwaveweb</module>
-  </modules>
+        <module>millimeterwavegui</module>
+    </modules>
     <packaging>pom</packaging>
 
     <name>${project.artifactId}</name>
@@ -107,6 +107,11 @@
             <artifactId>commons-math3</artifactId>
             <version>3.5</version>
         </dependency>
+        <dependency>
+            <groupId>org.onosproject</groupId>
+            <artifactId>onos-gui</artifactId>
+            <version>1.5.0</version>
+        </dependency>
 
         <dependency>
             <groupId>org.osgi</groupId>
@@ -164,28 +169,7 @@
                     </supportedProjectTypes>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.onosproject</groupId>
-                <artifactId>onos-maven-plugin</artifactId>
-                <version>1.9</version>
-                <executions>
-                    <execution>
-                        <id>cfg</id>
-                        <phase>generate-resources</phase>
-                        <goals>
-                            <goal>cfg</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>app</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>app</goal>
-                        </goals>
 
-                    </execution>
-                </executions>
-            </plugin>
         </plugins>
     </build>
 

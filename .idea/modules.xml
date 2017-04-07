@@ -6,7 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/millimeterwavelink/millimeterwavelink.iml" filepath="$PROJECT_DIR$/millimeterwavelink/millimeterwavelink.iml" />
       <module fileurl="file://$PROJECT_DIR$/millimeterwaveport/millimeterwaveport.iml" filepath="$PROJECT_DIR$/millimeterwaveport/millimeterwaveport.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmcli/mmcli.iml" filepath="$PROJECT_DIR$/mmcli/mmcli.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mmwaveweb/mmwaveweb.iml" filepath="$PROJECT_DIR$/mmwaveweb/mmwaveweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/millimeterwavegui/onos-app-mmwave-gui.iml" filepath="$PROJECT_DIR$/millimeterwavegui/onos-app-mmwave-gui.iml" />
     </modules>
   </component>
 </project>

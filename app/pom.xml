@@ -6,32 +6,16 @@
         <artifactId>millimeterwave</artifactId>
         <groupId>org.onosproject.millimeterwave</groupId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>app</artifactId>
     <packaging>pom</packaging>
 
+
     <description>ONOS mmwave application</description>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.onosproject</groupId>
-            <artifactId>millimeterwavelink</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.onosproject</groupId>
-            <artifactId>millimeterwaveport</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.onosproject</groupId>
-            <artifactId>mmcli</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
+
 
     <properties>
         <onos.app.name>org.onosproject.mmapp</onos.app.name>
@@ -47,4 +31,25 @@
         <onos.app.readme>ONOS OSGi bundle archetype.</onos.app.readme>
         -->
     </properties>
+    <dependencies>
+
+        <dependency>
+            <groupId>org.onosproject.millimeterwave</groupId>
+            <artifactId>millimeterwavelink</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.onosproject.millimeterwave</groupId>
+            <artifactId>millimeterwaveport</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.onosproject.millimeterwave</groupId>
+            <artifactId>mmcli</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+
 </project>

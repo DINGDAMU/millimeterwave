@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="app-1.0.0-SNAPSHOT.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="org.onosproject.millimeterwave.app" bundleVersion="1.0.0.SNAPSHOT" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties>
+          <property key="Bundle-Description" value="ONOS mmwave application" />
+          <property key="Bundle-Name" value="app" />
+        </additionalProperties>
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
@@ -8,33 +19,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../millimeterwavelink/target/millimeterwavelink-1.0.0-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../millimeterwaveport/target/millimeterwaveport-1.0.0-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../mmcli/target/mmcli-1.0.0-SNAPSHOT.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="module" module-name="millimeterwavelink" scope="PROVIDED" />
+    <orderEntry type="module" module-name="millimeterwaveport" scope="PROVIDED" />
+    <orderEntry type="module" module-name="mmcli" scope="PROVIDED" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.6" level="project" />
     <orderEntry type="library" name="Maven: org.onosproject:onos-incubator-api:1.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
@@ -47,7 +35,6 @@
     <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.6" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.6" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.6" level="project" />
     <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-server:2.25" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-common:2.25" level="project" />
@@ -135,7 +122,6 @@
     <orderEntry type="library" name="Maven: org.osgi:org.osgi.compendium:5.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.esotericsoftware:reflectasm:1.11.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.21" level="project" />
-    <orderEntry type="library" name="Maven: org.onosproject:onlab-misc:1.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.onosproject:onlab-rest:1.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.onosproject:onos-api:1.9.0" level="project" />
     <orderEntry type="library" name="Maven: org.onosproject:onos-core-dist:1.9.0" level="project" />
@@ -165,8 +151,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.karaf.jaas:org.apache.karaf.jaas.config:3.0.5" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.felix:org.apache.felix.fileinstall:3.5.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.sshd:sshd-core:0.14.0" level="project" />
-    <orderEntry type="library" name="Maven: org.onosproject:millimeterwaveport:1.0.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.onosproject:millimeterwavelink:1.0.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.onosproject:mmcli:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.onosproject:onlab-misc:1.9.0" level="project" />
   </component>
 </module>

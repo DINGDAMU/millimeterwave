@@ -20,7 +20,7 @@
         <onos.app.name>org.onosproject.millimeterwavelink</onos.app.name>
         <onos.app.origin>CREATE-NET</onos.app.origin>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <onos.version>1.10.0-SNAPSHOT</onos.version>
+        <onos.version>1.9.0</onos.version>
         <!-- Uncomment to generate ONOS app from this module.
         <onos.app.name>org.foo.app</onos.app.name>
         <onos.app.title>Foo App</onos.app.title>
@@ -30,5 +30,32 @@
         <onos.app.readme>ONOS OSGi bundle archetype.</onos.app.readme>
         -->
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.onosproject</groupId>
+                <artifactId>onos-maven-plugin</artifactId>
+                <version>1.9</version>
+                <executions>
+                    <execution>
+                        <id>cfg</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>cfg</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>app</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>app</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
 
 </project>

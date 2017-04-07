@@ -9,15 +9,16 @@
         <module name="millimeterwavelink" />
         <module name="millimeterwaveport" />
         <module name="mmcli" />
-        <module name="mmwaveweb" />
+        <module name="onos-app-mmwave-gui" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="app" target="1.8" />
       <module name="millimeterwave" target="1.8" />
       <module name="millimeterwavelink" target="1.8" />
       <module name="millimeterwaveport" target="1.8" />
       <module name="mmcli" target="1.8" />
-      <module name="mmwaveweb" target="1.8" />
+      <module name="onos-app-mmwave-gui" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1491190107044
+Bnd-LastModified: 1491488856333
 Build-Jdk: 1.8.0_51
 Built-By: dingdamu
 Bundle-Description: An ONOS application for annotations on millimeter_wa
