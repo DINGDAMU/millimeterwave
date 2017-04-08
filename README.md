@@ -84,7 +84,19 @@ Add the intent between host1 and host2, the path will be the shortest path which
      }
     }
 ### Configuration  
-     onos>onos-netcfg <ONOS's address> <path to JSON>
+     onos>onos-netcfg <ONOS's address> <path to JSON>  
+     
+     
+### MM-wave Topo overlay on WEB GUI
+- Start display mode: Highlight millimeter wave links in green color.
+- Cancel display mode: No more highlight millimeter wave links.
+- Show all related intents
+- Show previous related intent
+- Show next related intent
+- Monitor traffic of selected intent
+
+In addition, the number of mm-wave and Ethernet links will be shown on the Summary panel.
+
 
 # License
 Copyright -present Open Networking Laboratory
