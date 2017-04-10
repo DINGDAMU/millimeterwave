@@ -20,18 +20,7 @@
         '2V81.6z';
 
 
-    // alarm clock glyph (view box 110x110)
-    var clock = 'M92.9,61.3a39,39,0,1,1-39-39,39,39,0,0,1,39,39h0Z' +
-        'M44,19.3c-4.4-7.4-14.8-9.3-23.2-4.2S9.1,30.2,13.5,37.6m80.8,0' +
-        'c4.4-7.4,1.2-17.5-7.3-22.5s-18.8-3.2-23.3,4.2m-8.4,1.8V16.5h4.4' +
-        'V11.9H48.2v4.6h4.6v4.6M51.6,56.4H51.5' +
-        'a5.4,5.4,0,0,0,2.4,10.3,4.7,4.7,0,0,0,4.9-3.1H74.5' +
-        'a2.2,2.2,0,0,0,2.4-2.2,2.4,2.4,0,0,0-2.4-2.3H58.8' +
-        'a5.3,5.3,0,0,0-2.5-2.6H56.2V32.9' +
-        'a2.3,2.3,0,0,0-.6-1.7,2.2,2.2,0,0,0-1.6-.7,2.4,2.4,0,0,0-2.4,2.4' +
-        'h0V56.4M82.2,91.1l-7.1,5.3-0.2.2-1.2,2.1a0.6,0.6,0,0,0,.2.8' +
-        'h0.2c2.6,0.4,10.7.9,10.3-1.2m-60.8,0c-0.4,2.1,7.7,1.6,10.3,1.2' +
-        'h0.2a0.6,0.6,0,0,0,.2-0.8l-1.2-2.1-0.2-.2-7.1-5.3';
+
 
 
     // our overlay definition
@@ -111,15 +100,10 @@
                 tt: 'Monitor traffic of selected intent',
                 gid: 'm_intentTraffic'
             },
-            9:{
-                cb: function () { mtds.updateLinkAnnotations(); },
-                tt: 'go to die',
-                gid: '*clock'
-            },
 
 
             _keyOrder: [
-                'K', '0', 'V', 'leftArrow', 'rightArrow', 'W','9'
+                'K', '0', 'V', 'leftArrow', 'rightArrow', 'W'
             ]
         },
 
@@ -141,6 +125,31 @@
             mouseout: function () {
                 $log.debug('mouseout');
                 mtds.updateDisplay();
+            },
+
+            modifylinkdata: function (data, extra) {
+                $log.debug("Modify link data", data, extra);
+
+                // delete unwanted props (if any) by removing elements
+                //   from data.propOrder array first
+
+                function sep() {
+                    data.propOrder.push('-');
+                }
+
+                function add(key) {
+                    var val = extra[key];
+                    if (val !== undefined) {
+                        data.propOrder.push(key);
+                        data.props[key] = val;
+                    }
+                }
+                sep();
+                add('Technology');
+                add('Length');
+                add('Capacity');
+
+                return data;
             }
         }
     };

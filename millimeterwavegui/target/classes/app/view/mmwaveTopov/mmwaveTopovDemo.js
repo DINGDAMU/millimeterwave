@@ -28,8 +28,7 @@
     // constants
     var displayStart = 'mmwaveTopovDisplayStart',
         displayUpdate = 'mmwaveTopovDisplayUpdate',
-        displayStop = 'mmwaveTopovDisplayStop',
-        updatelinkannotations = 'updateLinkAnnotations';
+        displayStop = 'mmwaveTopovDisplayStop';
 
 
     // internal state
@@ -131,12 +130,7 @@
         wss.sendEvent(displayStop);
     }
 
-    function updateAnnotations(data) {
-        wss.sendEvent(updatelinkannotations,{
-            src: data.get('source'),
-            dst: data.get('target')
-        });
-    }
+
 
     // === ---------------------------
     // === Main API functions
@@ -155,10 +149,7 @@
         flash.flash('Canceling display mm-wave links');
     }
 
-    function updateLinkAnnotations(){
-        updateAnnotations();
-        flash.flash('you go girls,gee');
-    }
+
 
     // === ---------------------------
     // === Module Factory Definition
@@ -191,7 +182,6 @@
                 startDisplay: startDisplay,
                 updateDisplay: updateDisplay,
                 stopDisplay: stopDisplay,
-                updateLinkAnnotations:updateLinkAnnotations
             };
         }]);
 }());
