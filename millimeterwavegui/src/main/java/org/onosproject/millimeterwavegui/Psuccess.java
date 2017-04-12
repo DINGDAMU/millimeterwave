@@ -1,4 +1,4 @@
-package org.onosproject.mmcli;
+package org.onosproject.millimeterwavegui;
 
 import org.apache.commons.math3.special.Erf;
 

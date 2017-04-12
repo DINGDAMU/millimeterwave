@@ -1,12 +1,12 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1491488858963
+Bnd-LastModified: 1491985799670
 Build-Jdk: 1.8.0_51
 Built-By: dingdamu
 Bundle-Description: An ONOS application for annotations on millimeter_wa
  ve on ports
 Bundle-ManifestVersion: 2
 Bundle-Name: millimeterwaveport
-Bundle-SymbolicName: org.onosproject.millimeterwave.port
+Bundle-SymbolicName: org.onosproject.millimeterwaveport
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
 Export-Package: org.onosproject.millimeterwaveport;uses:="org.onosprojec

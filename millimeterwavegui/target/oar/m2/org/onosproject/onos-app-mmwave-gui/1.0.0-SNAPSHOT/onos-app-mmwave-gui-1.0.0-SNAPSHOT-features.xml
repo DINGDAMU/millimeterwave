@@ -14,10 +14,10 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0" name="mmcli-1.0.0-SNAPSHOT">
-    <feature name="mmcli" version="1.0.0-SNAPSHOT"
-             description="ONOS command lines  for annotations on millimeter_wave components">
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.2.0" name="onos-app-mmwave-gui-1.0.0-SNAPSHOT">
+    <feature name="onos-app-mmwave-gui" version="1.0.0-SNAPSHOT"
+             description="An ONOS application for web gui on mm-wave links">
         <feature>onos-api</feature>
-        <bundle>mvn:org.onosproject.millimeterwave/mmcli/1.0.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.onosproject/onos-app-mmwave-gui/1.0.0-SNAPSHOT</bundle>
     </feature>
 </features>

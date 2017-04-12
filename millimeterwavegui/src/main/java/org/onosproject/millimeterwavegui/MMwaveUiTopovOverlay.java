@@ -115,8 +115,13 @@ public class MMwaveUiTopovOverlay extends UiTopoOverlay {
         Link link = event.subject();
         if (link.annotations().value("length") != null) {
             additional.put("Length", link.annotations().value("length") + "m");
+            Psuccess psuccess = new Psuccess();
+            String len = link.annotations().value("length");
+            Double lend = Double.parseDouble(len);
+            additional.put("Packet_loss", String.valueOf(1 - psuccess.getPs(lend)));
         } else {
             additional.put("Length", "default");
+            additional.put("Packet_loss", "0");
         }
         if (link.annotations().value("technology") != null) {
             additional.put("Technology", link.annotations().value("technology"));
@@ -132,7 +137,6 @@ public class MMwaveUiTopovOverlay extends UiTopoOverlay {
         return additional;
 
     }
-
 
 
 

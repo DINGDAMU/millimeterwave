@@ -16,7 +16,7 @@
   --><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.onosproject.millimeterwave</groupId>
+    <groupId>org.onosproject</groupId>
     <artifactId>millimeterwave</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <modules>
@@ -27,14 +27,11 @@
     </modules>
     <packaging>pom</packaging>
 
-    <name>${project.artifactId}</name>
     <description>An ONOS application for annotations on millimeter_wave devices,ports and links</description>
     <url>http://onosproject.org</url>
 
 
     <properties>
-        <onos.app.name>org.onosproject.millimeterwave</onos.app.name>
-        <onos.app.origin>CREATE-NET</onos.app.origin>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <onos.version>1.9.0</onos.version>
         <!-- Uncomment to generate ONOS app from this module.
@@ -48,13 +45,6 @@
     </properties>
 
     <dependencies>
-
-        <dependency>
-            <groupId>org.onosproject</groupId>
-            <artifactId>onos-incubator-api</artifactId>
-            <version>${onos.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>org.onosproject</groupId>
             <artifactId>onos-api</artifactId>
@@ -66,11 +56,6 @@
             <artifactId>onos-core-dist</artifactId>
             <version>${onos.version}</version>
         </dependency>
-
-
-
-
-
 
         <dependency>
             <groupId>org.onosproject</groupId>
@@ -84,8 +69,6 @@
             <version>${onos.version}</version>
             <scope>provided</scope>
         </dependency>
-
-
 
         <dependency>
             <groupId>junit</groupId>
@@ -110,17 +93,6 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-math3</artifactId>
-            <version>3.5</version>
-        </dependency>
-        <dependency>
-            <groupId>org.onosproject</groupId>
-            <artifactId>onos-gui</artifactId>
-            <version>1.5.0</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.core</artifactId>
             <version>4.3.1</version>
@@ -132,11 +104,6 @@
             <artifactId>org.apache.karaf.shell.console</artifactId>
             <version>3.0.5</version>
             <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.onosproject</groupId>
-            <artifactId>onlab-misc</artifactId>
-            <version>${onos.version}</version>
         </dependency>
     </dependencies>
 
@@ -176,8 +143,29 @@
                     </supportedProjectTypes>
                 </configuration>
             </plugin>
-
+            <plugin>
+                <groupId>org.onosproject</groupId>
+                <artifactId>onos-maven-plugin</artifactId>
+                <version>1.9</version>
+                <executions>
+                    <execution>
+                        <id>cfg</id>
+                        <phase>generate-resources</phase>
+                        <goals>
+                            <goal>cfg</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>app</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>app</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
+
     </build>
 
 </project>
