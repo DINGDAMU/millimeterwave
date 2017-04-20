@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/millimeterwave.iml" filepath="$PROJECT_DIR$/millimeterwave.iml" />
       <module fileurl="file://$PROJECT_DIR$/millimeterwavelink/millimeterwavelink.iml" filepath="$PROJECT_DIR$/millimeterwavelink/millimeterwavelink.iml" />
       <module fileurl="file://$PROJECT_DIR$/millimeterwaveport/millimeterwaveport.iml" filepath="$PROJECT_DIR$/millimeterwaveport/millimeterwaveport.iml" />
       <module fileurl="file://$PROJECT_DIR$/mmcli/mmcli.iml" filepath="$PROJECT_DIR$/mmcli/mmcli.iml" />
       <module fileurl="file://$PROJECT_DIR$/millimeterwavegui/onos-app-mmwave-gui.iml" filepath="$PROJECT_DIR$/millimeterwavegui/onos-app-mmwave-gui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/millimeterwavehost/onos-app-mmwave-host.iml" filepath="$PROJECT_DIR$/millimeterwavehost/onos-app-mmwave-host.iml" />
     </modules>
   </component>
 </project>

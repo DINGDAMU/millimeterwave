@@ -5,25 +5,31 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import org.apache.karaf.shell.commands.Argument;
 import org.apache.karaf.shell.commands.Command;
+import org.onlab.graph.ScalarWeight;
+import org.onlab.graph.Weight;
 import org.onosproject.cli.AbstractShellCommand;
 import org.onosproject.cli.net.LinksListCommand;
-import org.onosproject.net.*;
-import org.onosproject.net.host.HostService;
-import org.onosproject.net.provider.ProviderId;
+import org.onosproject.net.DeviceId;
+import org.onosproject.net.HostId;
+import org.onosproject.net.Link;
+import org.onosproject.net.Path;
+import org.onosproject.net.Host;
+import org.onosproject.net.DefaultEdgeLink;
+import org.onosproject.net.EdgeLink;
+import org.onosproject.net.ConnectPoint;
+import org.onosproject.net.PortNumber;
 import org.onosproject.net.topology.LinkWeigher;
 import org.onosproject.net.topology.PathService;
 import org.onosproject.net.topology.TopologyEdge;
-import org.onlab.graph.ScalarWeight;
-import org.onlab.graph.Weight;
+import org.onosproject.net.host.HostService;
+import org.onosproject.net.provider.ProviderId;
 
 
 import java.util.Set;
 
 import static org.onosproject.cli.net.LinksListCommand.compactLinkString;
 
-/**
- * Created by dingdamu on 2017/3/17.
- */
+
 @Command(scope = "onos", name = "mmwave-hosts-paths",
         description = "calculate shortest path between hosts with own customized link weight")
 public class MMWaveHostsPathsCommand extends AbstractShellCommand {
@@ -47,6 +53,7 @@ public class MMWaveHostsPathsCommand extends AbstractShellCommand {
 
     protected PathService pathService;
     protected HostService hostService;
+
     //In our case we need to use pathService (ElementID is more comfortable than DeviceID in Topology.getPath() case)
     protected void init() {
         pathService = get(PathService.class);
@@ -140,7 +147,7 @@ public class MMWaveHostsPathsCommand extends AbstractShellCommand {
                     return ETHERNET_DEFAULT_WEIGHT;
                 }
                 //total cost = fixed cost + dynamic cost
-                // In Ethernet case, total cost = 100 + 1; (ps = 1)
+                // In Ethernet case, total cost = 100 + 1; (ps = 100%)
                 // In mm-wave case, total cost = 1 + 1/ps;
             } catch (NumberFormatException e) {
                 return null;

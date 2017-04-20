@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="Osmorc" url="file://$PROJECT_DIR$/app" />
     <file type="Osmorc" url="file://$PROJECT_DIR$/millimeterwavegui" />
+    <file type="Osmorc" url="file://$PROJECT_DIR$/millimeterwavehost" />
     <file type="Osmorc" url="file://$PROJECT_DIR$/millimeterwavelink" />
     <file type="Osmorc" url="file://$PROJECT_DIR$/millimeterwaveport" />
     <file type="Osmorc" url="file://$PROJECT_DIR$/mmcli" />

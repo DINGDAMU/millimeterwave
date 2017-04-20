@@ -118,7 +118,8 @@ public class MMwaveUiTopovOverlay extends UiTopoOverlay {
             Psuccess psuccess = new Psuccess();
             String len = link.annotations().value("length");
             Double lend = Double.parseDouble(len);
-            additional.put("Packet_loss", String.valueOf(1 - psuccess.getPs(lend)));
+            int ploss =(int) ((1 - psuccess.getPs(lend)) * 100);
+            additional.put("Packet_loss", String.valueOf(ploss) + "%");
         } else {
             additional.put("Length", "default");
             additional.put("Packet_loss", "0");

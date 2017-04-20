@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>millimeterwave</artifactId>
-        <groupId>org.onosproject.millimeterwave</groupId>
+        <groupId>org.onosproject</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>app</artifactId>
-    <packaging>pom</packaging>
+    <packaging>bundle</packaging>
 
 
     <description>ONOS mmwave application</description>
@@ -33,18 +33,28 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.onosproject.millimeterwave</groupId>
+            <groupId>org.onosproject</groupId>
             <artifactId>millimeterwavelink</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.onosproject.millimeterwave</groupId>
+            <groupId>org.onosproject</groupId>
+            <artifactId>onos-app-mmwave-gui</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.onosproject</groupId>
+            <artifactId>mmcli</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.onosproject</groupId>
             <artifactId>millimeterwaveport</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.onosproject.millimeterwave</groupId>
-            <artifactId>mmcli</artifactId>
+            <groupId>org.onosproject</groupId>
+            <artifactId>onos-app-mmwave-host</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

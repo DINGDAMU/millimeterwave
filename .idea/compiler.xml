@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="app" />
         <module name="millimeterwavelink" />
         <module name="millimeterwaveport" />
         <module name="mmcli" />
         <module name="onos-app-mmwave-gui" />
+        <module name="onos-app-mmwave-host" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +21,7 @@
       <module name="millimeterwaveport" target="1.8" />
       <module name="mmcli" target="1.8" />
       <module name="onos-app-mmwave-gui" target="1.8" />
+      <module name="onos-app-mmwave-host" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
